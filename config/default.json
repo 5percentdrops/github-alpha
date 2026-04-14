@@ -1,0 +1,11 @@
+{
+  "collection": {
+    "minFollowers": 1000,
+    "ratePauseMs": 2200,
+    "perPage": 100
+  },
+  "missionControl": {
+    "cardId": "github-alpha",
+    "refreshInterval": "6h"
+  }
+}

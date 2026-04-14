@@ -1,0 +1,12 @@
+{
+  "name": "github-alpha",
+  "version": "0.1.0",
+  "description": "GitHub developer intelligence for Mission Control UI",
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/collect-1k-followers.js",
+    "analyze": "node src/analyzers/rising-stars.js"
+  },
+  "keywords": ["github", "intelligence", "trading", "mission-control"],
+  "license": "MIT"
+}
