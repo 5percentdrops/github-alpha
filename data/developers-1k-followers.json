@@ -308,20 +308,6 @@
     "created": "2016-06-20T09:25:45Z"
   },
   {
-    "login": "CodeWithHarry",
-    "name": null,
-    "bio": null,
-    "followers": 40239,
-    "following": 0,
-    "public_repos": 41,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/CodeWithHarry",
-    "created": "2019-03-19T04:36:09Z"
-  },
-  {
     "login": "3b1b",
     "name": "Grant Sanderson",
     "bio": "I make videos about math.",
@@ -588,20 +574,6 @@
     "created": "2014-11-19T06:40:23Z"
   },
   {
-    "login": "WebDevSimplified",
-    "name": null,
-    "bio": null,
-    "followers": 32280,
-    "following": 0,
-    "public_repos": 234,
-    "company": "WebDevSimplified",
-    "location": "Nebraska",
-    "blog": "www.webdevsimplified.com",
-    "twitter": null,
-    "url": "https://github.com/WebDevSimplified",
-    "created": "2018-05-29T02:08:43Z"
-  },
-  {
     "login": "paulirish",
     "name": "Paul Irish",
     "bio": null,
@@ -824,20 +796,6 @@
     "twitter": null,
     "url": "https://github.com/ProgrammingHero1",
     "created": "2019-08-06T01:22:55Z"
-  },
-  {
-    "login": "mrdoob",
-    "name": null,
-    "bio": null,
-    "followers": 25027,
-    "following": 198,
-    "public_repos": 54,
-    "company": null,
-    "location": null,
-    "blog": "https://mrdoob.com",
-    "twitter": "mrdoob",
-    "url": "https://github.com/mrdoob",
-    "created": "2009-06-19T16:54:00Z"
   },
   {
     "login": "techwithtim",
@@ -1638,20 +1596,6 @@
     "created": "2012-12-09T08:38:00Z"
   },
   {
-    "login": "AUTOMATIC1111",
-    "name": null,
-    "bio": null,
-    "followers": 17697,
-    "following": 0,
-    "public_repos": 44,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/AUTOMATIC1111",
-    "created": "2016-08-09T05:39:07Z"
-  },
-  {
     "login": "vczh",
     "name": null,
     "bio": "Main contributor of @vczh-libraries ",
@@ -2338,20 +2282,6 @@
     "created": "2015-04-14T22:48:45Z"
   },
   {
-    "login": "CyC2018",
-    "name": null,
-    "bio": null,
-    "followers": 14729,
-    "following": 5,
-    "public_repos": 7,
-    "company": "@ByteDance",
-    "location": "Guangzhou, China",
-    "blog": "https://dwz.cn/H5R7WDSN",
-    "twitter": null,
-    "url": "https://github.com/CyC2018",
-    "created": "2018-02-08T09:03:31Z"
-  },
-  {
     "login": "sorrycc",
     "name": "chencheng (云谦)",
     "bio": "Front-end developer at alipay, creator of @neovateai, @umijs, @dvajs, mako, father, roadhog, babel-plugin-import, awesome-javascript...",
@@ -2840,20 +2770,6 @@
     "twitter": "localhost_5173",
     "url": "https://github.com/egoist",
     "created": "2014-09-15T22:08:21Z"
-  },
-  {
-    "login": "vbuterin",
-    "name": null,
-    "bio": null,
-    "followers": 13251,
-    "following": 1,
-    "public_repos": 68,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/vbuterin",
-    "created": "2012-08-28T00:33:09Z"
   },
   {
     "login": "bradfitz",
@@ -3456,20 +3372,6 @@
     "twitter": null,
     "url": "https://github.com/LukeSmithxyz",
     "created": "2017-06-02T18:16:12Z"
-  },
-  {
-    "login": "iconfont-cn",
-    "name": null,
-    "bio": null,
-    "followers": 12042,
-    "following": 0,
-    "public_repos": 0,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/iconfont-cn",
-    "created": "2016-09-18T09:41:08Z"
   },
   {
     "login": "robpike",
@@ -4256,20 +4158,6 @@
     "created": "2009-06-30T00:39:12Z"
   },
   {
-    "login": "meliksahyorulmazlar",
-    "name": null,
-    "bio": null,
-    "followers": 10647,
-    "following": 14,
-    "public_repos": 16,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/meliksahyorulmazlar",
-    "created": "2023-08-09T10:22:29Z"
-  },
-  {
     "login": "bchiang7",
     "name": "Brittany Chiang",
     "bio": "not to be confused with @bchiang7k, my work alter ego",
@@ -4520,20 +4408,6 @@
     "twitter": "logout",
     "url": "https://github.com/0vm",
     "created": "2021-03-02T06:55:10Z"
-  },
-  {
-    "login": "typicode",
-    "name": null,
-    "bio": null,
-    "followers": 10167,
-    "following": 0,
-    "public_repos": 77,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": "typicode",
-    "url": "https://github.com/typicode",
-    "created": "2013-09-20T13:43:02Z"
   },
   {
     "login": "CelaDaniel",
@@ -5864,20 +5738,6 @@
     "twitter": null,
     "url": "https://github.com/milla-jovovich",
     "created": "2025-09-14T18:11:21Z"
-  },
-  {
-    "login": "996icu",
-    "name": null,
-    "bio": null,
-    "followers": 8581,
-    "following": 0,
-    "public_repos": 1,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/996icu",
-    "created": "2019-03-26T07:27:32Z"
   },
   {
     "login": "ChenYilong",
@@ -7434,20 +7294,6 @@
     "created": "2012-01-27T02:25:47Z"
   },
   {
-    "login": "apna-college",
-    "name": null,
-    "bio": null,
-    "followers": 7270,
-    "following": 0,
-    "public_repos": 12,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/apna-college",
-    "created": "2021-12-17T16:10:14Z"
-  },
-  {
     "login": "TommyZihao",
     "name": "Tommy in Tongji",
     "bio": "B站UP主“同济子豪兄”\r\nhttps://space.bilibili.com/1900783\r\n代表作：精读AI经典论文、编程奇妙夜、斯坦福CS231N中文精讲。",
@@ -7600,20 +7446,6 @@
     "twitter": "byt3bl33d3r",
     "url": "https://github.com/byt3bl33d3r",
     "created": "2013-08-02T23:14:21Z"
-  },
-  {
-    "login": "SuperSimpleDev",
-    "name": null,
-    "bio": null,
-    "followers": 7206,
-    "following": 0,
-    "public_repos": 12,
-    "company": null,
-    "location": null,
-    "blog": "youtube.com/@SuperSimpleDev",
-    "twitter": null,
-    "url": "https://github.com/SuperSimpleDev",
-    "created": "2020-09-01T19:45:20Z"
   },
   {
     "login": "Jinjiang",
@@ -7838,20 +7670,6 @@
     "twitter": "potetotes",
     "url": "https://github.com/poteto",
     "created": "2012-01-30T07:35:52Z"
-  },
-  {
-    "login": "gaqx",
-    "name": null,
-    "bio": null,
-    "followers": 7092,
-    "following": 25777,
-    "public_repos": 15,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/gaqx",
-    "created": "2023-09-30T10:44:07Z"
   },
   {
     "login": "murapadev",
@@ -8428,20 +8246,6 @@
     "created": "2011-08-04T23:27:10Z"
   },
   {
-    "login": "linyiLYi",
-    "name": null,
-    "bio": null,
-    "followers": 6638,
-    "following": 3,
-    "public_repos": 6,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/linyiLYi",
-    "created": "2019-03-11T12:36:25Z"
-  },
-  {
     "login": "anisul-Islam",
     "name": "Anisul Islam",
     "bio": "Passionate teacher, done my M.Sc. in Software, Web & cloud at Tampere University, Finland.  ",
@@ -8552,20 +8356,6 @@
     "twitter": "ericelliott_",
     "url": "https://github.com/ericelliott",
     "created": "2010-08-15T02:03:17Z"
-  },
-  {
-    "login": "sobolevn",
-    "name": null,
-    "bio": null,
-    "followers": 6551,
-    "following": 3,
-    "public_repos": 627,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/sobolevn",
-    "created": "2013-06-10T10:54:02Z"
   },
   {
     "login": "commonsguy",
@@ -10374,20 +10164,6 @@
     "created": "2012-11-02T05:45:30Z"
   },
   {
-    "login": "guilhermeonrails",
-    "name": null,
-    "bio": null,
-    "followers": 5580,
-    "following": 14,
-    "public_repos": 285,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/guilhermeonrails",
-    "created": "2017-07-21T16:06:54Z"
-  },
-  {
     "login": "murtazahassan",
     "name": "Murtaza Hassan",
     "bio": "Designer/ Educator/ Researcher",
@@ -10540,20 +10316,6 @@
     "twitter": null,
     "url": "https://github.com/dabeaz",
     "created": "2010-08-01T15:22:48Z"
-  },
-  {
-    "login": "Developer-Y",
-    "name": null,
-    "bio": null,
-    "followers": 5514,
-    "following": 4,
-    "public_repos": 9,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/Developer-Y",
-    "created": "2016-10-08T05:36:57Z"
   },
   {
     "login": "VictorTaelin",
@@ -11312,20 +11074,6 @@
     "created": "2009-01-29T06:29:37Z"
   },
   {
-    "login": "camenduru",
-    "name": null,
-    "bio": null,
-    "followers": 5289,
-    "following": 0,
-    "public_repos": 1685,
-    "company": "🍞 tost.ai",
-    "location": null,
-    "blog": "",
-    "twitter": "camenduru",
-    "url": "https://github.com/camenduru",
-    "created": "2019-08-21T16:39:13Z"
-  },
-  {
     "login": "creationix",
     "name": "Tim Caswell",
     "bio": "Making the world better and more free, one technology at a time.",
@@ -11534,20 +11282,6 @@
     "twitter": "freekmurze",
     "url": "https://github.com/freekmurze",
     "created": "2010-11-16T13:38:15Z"
-  },
-  {
-    "login": "GrayMamoru",
-    "name": null,
-    "bio": null,
-    "followers": 5202,
-    "following": 12862,
-    "public_repos": 5,
-    "company": null,
-    "location": "Riga",
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/GrayMamoru",
-    "created": "2024-02-28T11:00:30Z"
   },
   {
     "login": "ziaukhan",
@@ -12586,20 +12320,6 @@
     "created": "2017-06-28T06:32:41Z"
   },
   {
-    "login": "oobabooga",
-    "name": null,
-    "bio": null,
-    "followers": 4938,
-    "following": 0,
-    "public_repos": 57,
-    "company": null,
-    "location": null,
-    "blog": "https://localbench.substack.com/",
-    "twitter": null,
-    "url": "https://github.com/oobabooga",
-    "created": "2022-08-27T01:04:27Z"
-  },
-  {
     "login": "smallnest",
     "name": "smallnest",
     "bio": "技术图书和专栏作者，微服务框架https://rpcx.io 作者，智能体开发框架 https://lango.rpcx.io 作者",
@@ -12992,20 +12712,6 @@
     "created": "2011-07-23T15:00:16Z"
   },
   {
-    "login": "lencx",
-    "name": null,
-    "bio": null,
-    "followers": 4833,
-    "following": 218,
-    "public_repos": 133,
-    "company": null,
-    "location": "Shanghai",
-    "blog": "lencx.me",
-    "twitter": "lencx_",
-    "url": "https://github.com/lencx",
-    "created": "2015-12-05T10:05:19Z"
-  },
-  {
     "login": "willmcgugan",
     "name": "Will McGugan",
     "bio": "I'm a full-stack software developer and Python expert. Creator and maintainer of @Textualize \r\n\r\nCreator of Rich, Textual, and @PyFilesystem. ",
@@ -13328,20 +13034,6 @@
     "created": "2013-03-09T00:54:04Z"
   },
   {
-    "login": "Errichto",
-    "name": null,
-    "bio": null,
-    "followers": 4755,
-    "following": 0,
-    "public_repos": 5,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/Errichto",
-    "created": "2013-11-16T19:21:57Z"
-  },
-  {
     "login": "mirayatech",
     "name": "Miraya Tech",
     "bio": "design engineer",
@@ -13508,20 +13200,6 @@
     "twitter": null,
     "url": "https://github.com/waylau",
     "created": "2013-01-10T09:59:30Z"
-  },
-  {
-    "login": "actions-user",
-    "name": null,
-    "bio": null,
-    "followers": 4695,
-    "following": 0,
-    "public_repos": 0,
-    "company": "@actions",
-    "location": null,
-    "blog": "https://github.com/actions",
-    "twitter": null,
-    "url": "https://github.com/actions-user",
-    "created": "2020-05-25T17:35:50Z"
   },
   {
     "login": "hax",
@@ -14476,20 +14154,6 @@
     "created": "2019-03-28T13:22:00Z"
   },
   {
-    "login": "dkhamsing",
-    "name": null,
-    "bio": null,
-    "followers": 4483,
-    "following": 0,
-    "public_repos": 30,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": "dkhamsing",
-    "url": "https://github.com/dkhamsing",
-    "created": "2013-06-17T23:20:58Z"
-  },
-  {
     "login": "brentvatne",
     "name": "Brent Vatne",
     "bio": null,
@@ -14726,20 +14390,6 @@
     "twitter": null,
     "url": "https://github.com/gavofyork",
     "created": "2009-10-11T16:55:59Z"
-  },
-  {
-    "login": "hankcs",
-    "name": null,
-    "bio": null,
-    "followers": 4414,
-    "following": 0,
-    "public_repos": 87,
-    "company": null,
-    "location": null,
-    "blog": "https://hankcs.com/",
-    "twitter": null,
-    "url": "https://github.com/hankcs",
-    "created": "2013-08-28T04:08:24Z"
   },
   {
     "login": "jakeliny",
@@ -15356,20 +15006,6 @@
     "twitter": null,
     "url": "https://github.com/biaochenxuying",
     "created": "2016-12-04T01:49:23Z"
-  },
-  {
-    "login": "k8gege",
-    "name": null,
-    "bio": null,
-    "followers": 4300,
-    "following": 4,
-    "public_repos": 35,
-    "company": "FBI",
-    "location": "USA",
-    "blog": "k8gege.org",
-    "twitter": null,
-    "url": "https://github.com/k8gege",
-    "created": "2018-08-12T07:50:37Z"
   },
   {
     "login": "alaevate",
@@ -16184,34 +15820,6 @@
     "created": "2013-10-23T09:45:34Z"
   },
   {
-    "login": "ring04h",
-    "name": null,
-    "bio": null,
-    "followers": 4116,
-    "following": 50,
-    "public_repos": 44,
-    "company": null,
-    "location": "China",
-    "blog": "http://weibo.com/ringzero",
-    "twitter": null,
-    "url": "https://github.com/ring04h",
-    "created": "2009-06-06T04:01:59Z"
-  },
-  {
-    "login": "hfiref0x",
-    "name": null,
-    "bio": null,
-    "followers": 4112,
-    "following": 21,
-    "public_repos": 33,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/hfiref0x",
-    "created": "2015-01-26T13:28:32Z"
-  },
-  {
     "login": "matryer",
     "name": "Mat Ryer",
     "bio": "Senior principal engineer building agents at @Grafana Gopher, developer, speaker, author (Go Programming Blueprints)",
@@ -16224,20 +15832,6 @@
     "twitter": "matryer",
     "url": "https://github.com/matryer",
     "created": "2009-07-04T14:49:10Z"
-  },
-  {
-    "login": "deepfakes",
-    "name": null,
-    "bio": null,
-    "followers": 4105,
-    "following": 0,
-    "public_repos": 4,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/deepfakes",
-    "created": "2017-12-19T01:40:54Z"
   },
   {
     "login": "vladmihalcea",
@@ -16520,20 +16114,6 @@
     "created": "2023-06-26T04:07:09Z"
   },
   {
-    "login": "x3ric",
-    "name": null,
-    "bio": null,
-    "followers": 4047,
-    "following": 3791,
-    "public_repos": 21,
-    "company": null,
-    "location": "Italy",
-    "blog": "https://x3ric.com",
-    "twitter": null,
-    "url": "https://github.com/x3ric",
-    "created": "2021-10-25T07:04:48Z"
-  },
-  {
     "login": "M0nica",
     "name": "Monica Powell",
     "bio": "Building tech to elevate people. Founder of React Robins a community for React JS developers.",
@@ -16672,20 +16252,6 @@
     "twitter": null,
     "url": "https://github.com/apaszke",
     "created": "2013-05-31T20:51:12Z"
-  },
-  {
-    "login": "xmoohad",
-    "name": null,
-    "bio": null,
-    "followers": 4020,
-    "following": 1,
-    "public_repos": 0,
-    "company": "EpicChain Labs ",
-    "location": null,
-    "blog": "https://xmoohad.com/",
-    "twitter": "xmoohad",
-    "url": "https://github.com/xmoohad",
-    "created": "2022-09-30T16:48:26Z"
   },
   {
     "login": "argyleink",
@@ -16854,20 +16420,6 @@
     "twitter": null,
     "url": "https://github.com/nothings",
     "created": "2014-05-08T15:20:21Z"
-  },
-  {
-    "login": "befoulers",
-    "name": null,
-    "bio": null,
-    "followers": 3985,
-    "following": 3930,
-    "public_repos": 17,
-    "company": "High Class",
-    "location": "Jerusalém",
-    "blog": "",
-    "twitter": "dougkalash",
-    "url": "https://github.com/befoulers",
-    "created": "2023-11-02T20:59:17Z"
   },
   {
     "login": "zedshaw",
@@ -17218,20 +16770,6 @@
     "twitter": null,
     "url": "https://github.com/ndb796",
     "created": "2016-01-21T17:26:43Z"
-  },
-  {
-    "login": "zhongyang219",
-    "name": null,
-    "bio": null,
-    "followers": 3919,
-    "following": 0,
-    "public_repos": 40,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/zhongyang219",
-    "created": "2017-07-30T02:42:27Z"
   },
   {
     "login": "dodola",
@@ -17626,20 +17164,6 @@
     "created": "2013-04-01T16:20:34Z"
   },
   {
-    "login": "kokkalis",
-    "name": null,
-    "bio": null,
-    "followers": 3851,
-    "following": 0,
-    "public_repos": 4,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/kokkalis",
-    "created": "2010-12-17T19:27:36Z"
-  },
-  {
     "login": "kytrinyx",
     "name": "Katrina Owen",
     "bio": "Creator of @exercism.",
@@ -17904,20 +17428,6 @@
     "twitter": "lexrus",
     "url": "https://github.com/lexrus",
     "created": "2010-03-10T08:54:33Z"
-  },
-  {
-    "login": "theNetworkChuck",
-    "name": null,
-    "bio": null,
-    "followers": 3825,
-    "following": 3,
-    "public_repos": 42,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/theNetworkChuck",
-    "created": "2019-02-07T21:08:46Z"
   },
   {
     "login": "visualGravitySense",
@@ -18284,20 +17794,6 @@
     "created": "2017-10-09T07:27:37Z"
   },
   {
-    "login": "ottomated",
-    "name": null,
-    "bio": null,
-    "followers": 3772,
-    "following": 3,
-    "public_repos": 92,
-    "company": null,
-    "location": "Los Angeles",
-    "blog": "https://ottomated.net",
-    "twitter": null,
-    "url": "https://github.com/ottomated",
-    "created": "2017-08-30T08:43:30Z"
-  },
-  {
     "login": "maliming",
     "name": "Ma Liming",
     "bio": "Software Developer at @volosoft",
@@ -18380,20 +17876,6 @@
     "twitter": "damianedwards",
     "url": "https://github.com/DamianEdwards",
     "created": "2010-04-21T15:25:16Z"
-  },
-  {
-    "login": "niuhuan",
-    "name": null,
-    "bio": null,
-    "followers": 3767,
-    "following": 0,
-    "public_repos": 91,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/niuhuan",
-    "created": "2016-08-04T21:15:03Z"
   },
   {
     "login": "jspahrsummers",
@@ -18618,20 +18100,6 @@
     "twitter": null,
     "url": "https://github.com/dougwilson",
     "created": "2009-03-26T18:16:14Z"
-  },
-  {
-    "login": "CSSEGISandData",
-    "name": null,
-    "bio": null,
-    "followers": 3733,
-    "following": 0,
-    "public_repos": 9,
-    "company": "CSSE at Johns Hopkins University",
-    "location": "Baltimore, MD",
-    "blog": "https://systems.jhu.edu/",
-    "twitter": null,
-    "url": "https://github.com/CSSEGISandData",
-    "created": "2020-02-04T22:02:23Z"
   },
   {
     "login": "SharifiZarchi",
@@ -18870,20 +18338,6 @@
     "twitter": null,
     "url": "https://github.com/Ali1Safi",
     "created": "2024-03-08T10:46:39Z"
-  },
-  {
-    "login": "bellard",
-    "name": null,
-    "bio": null,
-    "followers": 3693,
-    "following": 0,
-    "public_repos": 2,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/bellard",
-    "created": "2014-01-24T09:27:09Z"
   },
   {
     "login": "ranaroussi",
@@ -19544,20 +18998,6 @@
     "created": "2023-12-13T01:15:16Z"
   },
   {
-    "login": "jdx",
-    "name": null,
-    "bio": null,
-    "followers": 3595,
-    "following": 177,
-    "public_repos": 584,
-    "company": "@figma",
-    "location": "Dallas, TX",
-    "blog": "https://jdx.dev",
-    "twitter": "jdxcode",
-    "url": "https://github.com/jdx",
-    "created": "2010-03-04T23:56:27Z"
-  },
-  {
     "login": "EdOverflow",
     "name": "EdOverflow",
     "bio": "Web developer & security researcher.",
@@ -19710,20 +19150,6 @@
     "twitter": null,
     "url": "https://github.com/schollz",
     "created": "2014-01-31T01:31:11Z"
-  },
-  {
-    "login": "safedaonetwork",
-    "name": null,
-    "bio": null,
-    "followers": 3559,
-    "following": 0,
-    "public_repos": 0,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/safedaonetwork",
-    "created": "2021-04-06T15:28:31Z"
   },
   {
     "login": "liyasthomas",
@@ -20242,20 +19668,6 @@
     "twitter": "teabass",
     "url": "https://github.com/andrew",
     "created": "2008-02-27T11:39:22Z"
-  },
-  {
-    "login": "giladfuchs",
-    "name": null,
-    "bio": null,
-    "followers": 3512,
-    "following": 7918,
-    "public_repos": 6,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/giladfuchs",
-    "created": "2017-11-16T13:52:52Z"
   },
   {
     "login": "unhappychoice",
@@ -20930,20 +20342,6 @@
     "created": "2009-09-25T21:54:44Z"
   },
   {
-    "login": "bjmashibing",
-    "name": null,
-    "bio": null,
-    "followers": 3425,
-    "following": 0,
-    "public_repos": 22,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/bjmashibing",
-    "created": "2017-04-01T04:09:32Z"
-  },
-  {
     "login": "raivings",
     "name": " ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎",
     "bio": "‎ ‎ ‎ ‎‎ ‎ ‎‎ ‎ ‎ ‎‎ ‎‎ ‎ ‎ ‎‎ ‎ ‎‎  evil @screwIIum alter ego‎ ‎ ‎ ‎‎ ‎ ‎‎ ‎ ‎ ‎‎ ‎‎ ‎ ‎ ‎‎ ‎ ‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎‎ ‎ ‎ ‎‎ ‎‎ ‎ ‎ ‎‎ ‎ ‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎‎ ‎ ‎ ‎‎ ‎‎ ‎ ",
@@ -21040,20 +20438,6 @@
     "twitter": null,
     "url": "https://github.com/TopCodeBeast",
     "created": "2021-11-06T01:08:41Z"
-  },
-  {
-    "login": "teorth",
-    "name": null,
-    "bio": null,
-    "followers": 3413,
-    "following": 0,
-    "public_repos": 21,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/teorth",
-    "created": "2010-02-08T06:43:25Z"
   },
   {
     "login": "hakluke",
@@ -21782,20 +21166,6 @@
     "twitter": "dotey",
     "url": "https://github.com/JimLiu",
     "created": "2011-03-03T09:18:48Z"
-  },
-  {
-    "login": "yuuwill",
-    "name": null,
-    "bio": null,
-    "followers": 3344,
-    "following": 0,
-    "public_repos": 4,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/yuuwill",
-    "created": "2015-09-04T02:12:59Z"
   },
   {
     "login": "wu-sheng",
@@ -22820,20 +22190,6 @@
     "created": "2015-04-22T08:50:04Z"
   },
   {
-    "login": "RehabMan",
-    "name": null,
-    "bio": null,
-    "followers": 3238,
-    "following": 0,
-    "public_repos": 57,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/RehabMan",
-    "created": "2012-09-01T20:42:15Z"
-  },
-  {
     "login": "ademilter",
     "name": "Adem ilter",
     "bio": "crafting interfaces",
@@ -22888,20 +22244,6 @@
     "twitter": null,
     "url": "https://github.com/yanzhenjie",
     "created": "2015-07-28T07:54:07Z"
-  },
-  {
-    "login": "rxi",
-    "name": null,
-    "bio": null,
-    "followers": 3229,
-    "following": 6,
-    "public_repos": 45,
-    "company": null,
-    "location": null,
-    "blog": "rxi.github.io",
-    "twitter": null,
-    "url": "https://github.com/rxi",
-    "created": "2013-03-20T12:12:42Z"
   },
   {
     "login": "conanak99",
@@ -23476,20 +22818,6 @@
     "twitter": null,
     "url": "https://github.com/4ra1n",
     "created": "2017-12-21T00:20:36Z"
-  },
-  {
-    "login": "iperov",
-    "name": null,
-    "bio": null,
-    "followers": 3176,
-    "following": 0,
-    "public_repos": 8,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/iperov",
-    "created": "2014-07-05T17:03:58Z"
   },
   {
     "login": "PaulStoffregen",
@@ -25816,20 +25144,6 @@
     "created": "2012-06-25T13:22:16Z"
   },
   {
-    "login": "odersky",
-    "name": null,
-    "bio": null,
-    "followers": 2981,
-    "following": 1,
-    "public_repos": 17,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/odersky",
-    "created": "2011-05-18T14:51:21Z"
-  },
-  {
     "login": "IonicaBizau",
     "name": "Ionică Bizău (Johnny B.)",
     "bio": "Programmer, Geek, Pianist & Organist, Learner, Mentor, Dreamer, Vegetarian, Jesus follower, Founder @Bloggify",
@@ -26220,20 +25534,6 @@
     "twitter": "ireaderinokun",
     "url": "https://github.com/ireade",
     "created": "2014-09-06T10:34:09Z"
-  },
-  {
-    "login": "github-login",
-    "name": null,
-    "bio": null,
-    "followers": 2945,
-    "following": 0,
-    "public_repos": 1,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/github-login",
-    "created": "2016-11-16T18:54:18Z"
   },
   {
     "login": "guilhermerodz",
@@ -26752,20 +26052,6 @@
     "twitter": "jbee37142",
     "url": "https://github.com/jbee37142",
     "created": "2016-03-18T09:13:22Z"
-  },
-  {
-    "login": "arash-hacker",
-    "name": null,
-    "bio": null,
-    "followers": 2904,
-    "following": 6,
-    "public_repos": 78,
-    "company": null,
-    "location": null,
-    "blog": "arash-hacker.github.io",
-    "twitter": null,
-    "url": "https://github.com/arash-hacker",
-    "created": "2014-01-20T15:19:23Z"
   },
   {
     "login": "mluukkai",
@@ -27398,20 +26684,6 @@
     "created": "2012-06-17T00:42:40Z"
   },
   {
-    "login": "unconed",
-    "name": null,
-    "bio": null,
-    "followers": 2850,
-    "following": 6,
-    "public_repos": 47,
-    "company": null,
-    "location": null,
-    "blog": "https://acko.net/",
-    "twitter": null,
-    "url": "https://github.com/unconed",
-    "created": "2009-12-28T02:12:52Z"
-  },
-  {
     "login": "yosuke-kuroki",
     "name": "Yosuke Kuroki",
     "bio": " SR AI ML engineer | LLM,  Computer Vision, OCR | Cloud, MLOps | Crypto Trader & Developer",
@@ -27970,20 +27242,6 @@
     "twitter": null,
     "url": "https://github.com/dlew",
     "created": "2010-12-08T15:43:07Z"
-  },
-  {
-    "login": "smartinternz-epbl",
-    "name": null,
-    "bio": null,
-    "followers": 2800,
-    "following": 0,
-    "public_repos": 0,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/smartinternz-epbl",
-    "created": "2022-03-29T05:45:12Z"
   },
   {
     "login": "mishakorzik",
@@ -28630,20 +27888,6 @@
     "created": "2012-08-22T01:52:44Z"
   },
   {
-    "login": "technoweenie",
-    "name": null,
-    "bio": null,
-    "followers": 2745,
-    "following": 18,
-    "public_repos": 177,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/technoweenie",
-    "created": "2008-01-14T04:33:35Z"
-  },
-  {
     "login": "aryashah2k",
     "name": "Arya Shah",
     "bio": "Artificial Intelligence Engineer & Researcher ",
@@ -28880,20 +28124,6 @@
     "twitter": null,
     "url": "https://github.com/ankitaaryal",
     "created": "2025-10-03T10:43:42Z"
-  },
-  {
-    "login": "PovilasKorop",
-    "name": null,
-    "bio": null,
-    "followers": 2720,
-    "following": 0,
-    "public_repos": 29,
-    "company": "Laravel Course Creator",
-    "location": "Vilnius, Lithuania",
-    "blog": "laraveldaily.com",
-    "twitter": "PovilasKorop",
-    "url": "https://github.com/PovilasKorop",
-    "created": "2012-03-07T05:29:28Z"
   },
   {
     "login": "yujiangshui",
@@ -29134,20 +28364,6 @@
     "created": "2012-09-27T20:40:22Z"
   },
   {
-    "login": "xmrig",
-    "name": null,
-    "bio": null,
-    "followers": 2709,
-    "following": 1,
-    "public_repos": 13,
-    "company": null,
-    "location": null,
-    "blog": "https://xmrig.com",
-    "twitter": "xmrig_dev",
-    "url": "https://github.com/xmrig",
-    "created": "2017-04-15T01:01:09Z"
-  },
-  {
     "login": "waylybaye",
     "name": "Baye",
     "bio": "Poor Indie developer, full stack programer, creator of 熊猫吃短信、ServerCat。",
@@ -29286,20 +28502,6 @@
     "twitter": null,
     "url": "https://github.com/xdite",
     "created": "2008-05-01T07:21:50Z"
-  },
-  {
-    "login": "psharifi1997",
-    "name": null,
-    "bio": null,
-    "followers": 2698,
-    "following": 5377,
-    "public_repos": 2,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/psharifi1997",
-    "created": "2023-08-23T17:33:57Z"
   },
   {
     "login": "jwiegley",
@@ -30114,20 +29316,6 @@
     "created": "2012-09-07T16:54:37Z"
   },
   {
-    "login": "pichenettes",
-    "name": null,
-    "bio": null,
-    "followers": 2648,
-    "following": 0,
-    "public_repos": 19,
-    "company": "Mutable Instruments",
-    "location": null,
-    "blog": "https://pichenettes.github.io/mutable-instruments-documentation/",
-    "twitter": null,
-    "url": "https://github.com/pichenettes",
-    "created": "2009-08-22T01:00:20Z"
-  },
-  {
     "login": "amanchadha",
     "name": "Aman Chadha",
     "bio": "GenAI @ AWS • Ex: Apple, Stanford",
@@ -30310,20 +29498,6 @@
     "created": "2016-04-30T19:57:10Z"
   },
   {
-    "login": "yasirkula",
-    "name": null,
-    "bio": null,
-    "followers": 2635,
-    "following": 0,
-    "public_repos": 46,
-    "company": null,
-    "location": null,
-    "blog": "https://yasirkula.net",
-    "twitter": "yasirkula",
-    "url": "https://github.com/yasirkula",
-    "created": "2014-12-16T17:58:05Z"
-  },
-  {
     "login": "maziarraissi",
     "name": "Maziar Raissi",
     "bio": null,
@@ -30492,20 +29666,6 @@
     "created": "2012-07-07T13:24:59Z"
   },
   {
-    "login": "thelabmde",
-    "name": null,
-    "bio": null,
-    "followers": 2623,
-    "following": 11518,
-    "public_repos": 0,
-    "company": "National University of Colombia",
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/thelabmde",
-    "created": "2024-02-29T19:52:38Z"
-  },
-  {
     "login": "learning-zone",
     "name": "Pradeep Kumar",
     "bio": "💻 Software Developer ",
@@ -30576,20 +29736,6 @@
     "created": "2013-06-03T13:30:16Z"
   },
   {
-    "login": "tf8888",
-    "name": null,
-    "bio": null,
-    "followers": 2620,
-    "following": 6939,
-    "public_repos": 8,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/tf8888",
-    "created": "2023-02-01T09:53:42Z"
-  },
-  {
     "login": "CompuIves",
     "name": "Ives van Hoorne",
     "bio": "Developer, traveler, tech enthusiast, working on codesandbox.io.\r\n",
@@ -30630,20 +29776,6 @@
     "twitter": null,
     "url": "https://github.com/jbenet",
     "created": "2009-10-11T22:52:54Z"
-  },
-  {
-    "login": "SlvLabs",
-    "name": null,
-    "bio": null,
-    "followers": 2617,
-    "following": 0,
-    "public_repos": 2,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/SlvLabs",
-    "created": "2021-08-31T07:10:40Z"
   },
   {
     "login": "taisprestes01",
@@ -31106,20 +30238,6 @@
     "twitter": null,
     "url": "https://github.com/shervinea",
     "created": "2017-03-04T18:55:03Z"
-  },
-  {
-    "login": "zbezj",
-    "name": null,
-    "bio": null,
-    "followers": 2590,
-    "following": 28,
-    "public_repos": 7,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/zbezj",
-    "created": "2019-06-23T00:45:09Z"
   },
   {
     "login": "coolstar",
@@ -31976,20 +31094,6 @@
     "created": "2013-07-03T02:47:21Z"
   },
   {
-    "login": "Vermisse",
-    "name": null,
-    "bio": null,
-    "followers": 2544,
-    "following": 10178,
-    "public_repos": 0,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/Vermisse",
-    "created": "2016-03-21T02:49:01Z"
-  },
-  {
     "login": "davatron5000",
     "name": "Dave Rupert",
     "bio": "Co-founder of Luro. Lead developer at Paravel. Co-host of ShopTalkShow. Purveyor of tiny jQueries.",
@@ -32256,20 +31360,6 @@
     "created": "2011-09-23T02:19:53Z"
   },
   {
-    "login": "atomiks",
-    "name": null,
-    "bio": null,
-    "followers": 2530,
-    "following": 0,
-    "public_repos": 28,
-    "company": null,
-    "location": "Gold Coast, Australia",
-    "blog": "",
-    "twitter": "atomiksdev",
-    "url": "https://github.com/atomiks",
-    "created": "2016-09-26T13:57:04Z"
-  },
-  {
     "login": "ritwickdey",
     "name": "Ritwick Dey",
     "bio": null,
@@ -32506,20 +31596,6 @@
     "twitter": "drosenwasser",
     "url": "https://github.com/DanielRosenwasser",
     "created": "2011-08-11T02:09:39Z"
-  },
-  {
-    "login": "neetcode-gh",
-    "name": null,
-    "bio": null,
-    "followers": 2517,
-    "following": 0,
-    "public_repos": 9,
-    "company": null,
-    "location": null,
-    "blog": "https://neetcode.io/",
-    "twitter": "neetcode1",
-    "url": "https://github.com/neetcode-gh",
-    "created": "2021-01-20T16:08:53Z"
   },
   {
     "login": "adashofdata",
@@ -33838,20 +32914,6 @@
     "created": "2010-09-10T09:21:18Z"
   },
   {
-    "login": "windingwind",
-    "name": null,
-    "bio": null,
-    "followers": 2449,
-    "following": 11,
-    "public_repos": 45,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/windingwind",
-    "created": "2017-11-22T14:12:57Z"
-  },
-  {
     "login": "wyouflf",
     "name": "wyouflf",
     "bio": null,
@@ -33976,20 +33038,6 @@
     "twitter": null,
     "url": "https://github.com/Ayushi0214",
     "created": "2023-02-02T07:15:10Z"
-  },
-  {
-    "login": "FJahanmiri",
-    "name": null,
-    "bio": null,
-    "followers": 2444,
-    "following": 7664,
-    "public_repos": 11,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/FJahanmiri",
-    "created": "2024-04-29T08:59:19Z"
   },
   {
     "login": "filedonkey",
@@ -34634,20 +33682,6 @@
     "twitter": null,
     "url": "https://github.com/copy",
     "created": "2012-06-04T18:49:03Z"
-  },
-  {
-    "login": "judygab",
-    "name": null,
-    "bio": null,
-    "followers": 2408,
-    "following": 6,
-    "public_repos": 64,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/judygab",
-    "created": "2019-05-01T03:00:20Z"
   },
   {
     "login": "sarahofai",
@@ -35532,20 +34566,6 @@
     "created": "2024-01-21T20:27:48Z"
   },
   {
-    "login": "algebric",
-    "name": null,
-    "bio": null,
-    "followers": 2366,
-    "following": 12761,
-    "public_repos": 3,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/algebric",
-    "created": "2014-03-05T14:47:57Z"
-  },
-  {
     "login": "amasad",
     "name": "Amjad Masad",
     "bio": "ceo @ repl.it",
@@ -35938,20 +34958,6 @@
     "created": "2023-08-31T17:23:44Z"
   },
   {
-    "login": "axi0mX",
-    "name": null,
-    "bio": null,
-    "followers": 2348,
-    "following": 9,
-    "public_repos": 11,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/axi0mX",
-    "created": "2015-10-14T06:07:30Z"
-  },
-  {
     "login": "basir",
     "name": "Bassir Jafarzadeh",
     "bio": "Full stack web developer & online instructor specializing in JavaScript, React, Next, Node, MongoDB and MySql",
@@ -36162,20 +35168,6 @@
     "created": "2020-01-21T05:32:11Z"
   },
   {
-    "login": "baninpezhhan",
-    "name": null,
-    "bio": null,
-    "followers": 2340,
-    "following": 4878,
-    "public_repos": 5,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/baninpezhhan",
-    "created": "2024-03-05T15:28:02Z"
-  },
-  {
     "login": "leandromoreira",
     "name": "Leandro Moreira",
     "bio": null,
@@ -36302,20 +35294,6 @@
     "created": "2015-04-01T13:54:36Z"
   },
   {
-    "login": "passportcsdn",
-    "name": null,
-    "bio": null,
-    "followers": 2334,
-    "following": 0,
-    "public_repos": 0,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/passportcsdn",
-    "created": "2013-12-18T08:53:49Z"
-  },
-  {
     "login": "SlexAxton",
     "name": "Alex Sexton",
     "bio": "<script>alert(1)</script>",
@@ -36342,34 +35320,6 @@
     "twitter": null,
     "url": "https://github.com/broccolini",
     "created": "2010-07-17T14:09:03Z"
-  },
-  {
-    "login": "misterch0c",
-    "name": null,
-    "bio": null,
-    "followers": 2332,
-    "following": 99,
-    "public_repos": 72,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/misterch0c",
-    "created": "2014-09-23T13:09:01Z"
-  },
-  {
-    "login": "Letscode-br",
-    "name": null,
-    "bio": null,
-    "followers": 2332,
-    "following": 1,
-    "public_repos": 6,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/Letscode-br",
-    "created": "2022-01-13T17:07:57Z"
   },
   {
     "login": "imranhsayed",
@@ -36510,20 +35460,6 @@
     "twitter": null,
     "url": "https://github.com/BBuf",
     "created": "2018-01-19T02:21:25Z"
-  },
-  {
-    "login": "feiniaoyun",
-    "name": null,
-    "bio": null,
-    "followers": 2326,
-    "following": 0,
-    "public_repos": 5,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/feiniaoyun",
-    "created": "2024-08-04T00:03:24Z"
   },
   {
     "login": "raphlinus",
@@ -36972,20 +35908,6 @@
     "twitter": "itzpradip",
     "url": "https://github.com/itzpradip",
     "created": "2015-02-17T09:37:45Z"
-  },
-  {
-    "login": "openbilibili",
-    "name": null,
-    "bio": null,
-    "followers": 2310,
-    "following": 0,
-    "public_repos": 2,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/openbilibili",
-    "created": "2019-04-22T02:35:24Z"
   },
   {
     "login": "MunGell",
@@ -37504,20 +36426,6 @@
     "twitter": null,
     "url": "https://github.com/catherineisonline",
     "created": "2020-04-18T19:52:24Z"
-  },
-  {
-    "login": "huaxz1986",
-    "name": null,
-    "bio": null,
-    "followers": 2285,
-    "following": 1,
-    "public_repos": 98,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/huaxz1986",
-    "created": "2013-01-27T05:38:44Z"
   },
   {
     "login": "The-Young-Programer",
@@ -38178,20 +37086,6 @@
     "created": "2016-04-19T04:19:41Z"
   },
   {
-    "login": "SciresM",
-    "name": null,
-    "bio": null,
-    "followers": 2260,
-    "following": 3,
-    "public_repos": 90,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/SciresM",
-    "created": "2014-09-06T06:35:16Z"
-  },
-  {
     "login": "samccone",
     "name": "Sam Saccone",
     "bio": "🏊‍♂️",
@@ -38232,20 +37126,6 @@
     "twitter": null,
     "url": "https://github.com/metigator",
     "created": "2021-07-12T12:38:13Z"
-  },
-  {
-    "login": "marcoarment",
-    "name": null,
-    "bio": null,
-    "followers": 2258,
-    "following": 0,
-    "public_repos": 11,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/marcoarment",
-    "created": "2010-08-16T17:22:27Z"
   },
   {
     "login": "rmurphey",
@@ -39424,20 +38304,6 @@
     "created": "2024-02-22T16:28:56Z"
   },
   {
-    "login": "pentestmonkey",
-    "name": null,
-    "bio": null,
-    "followers": 2207,
-    "following": 0,
-    "public_repos": 21,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/pentestmonkey",
-    "created": "2011-04-19T05:44:43Z"
-  },
-  {
     "login": "linux-china",
     "name": "Libing Chen",
     "bio": "FullStack software engineer driven by AI now, with 25+ years Java experience",
@@ -39984,20 +38850,6 @@
     "created": "2014-08-12T13:27:20Z"
   },
   {
-    "login": "ARKInvest",
-    "name": null,
-    "bio": null,
-    "followers": 1986,
-    "following": 0,
-    "public_repos": 11,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/ARKInvest",
-    "created": "2019-03-29T02:40:25Z"
-  },
-  {
     "login": "z3tt",
     "name": "Cédric Scherer",
     "bio": "Consultant, developer, and instructor for data workflows, analysis, visualization & communication.",
@@ -40052,20 +38904,6 @@
     "twitter": null,
     "url": "https://github.com/brettwooldridge",
     "created": "2012-03-15T01:16:19Z"
-  },
-  {
-    "login": "jjallaire",
-    "name": null,
-    "bio": null,
-    "followers": 1984,
-    "following": 0,
-    "public_repos": 189,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/jjallaire",
-    "created": "2009-07-13T11:39:11Z"
   },
   {
     "login": "Ha3MrX",
@@ -40570,20 +39408,6 @@
     "twitter": null,
     "url": "https://github.com/sergeyshaykhullin",
     "created": "2019-01-23T16:40:07Z"
-  },
-  {
-    "login": "hq450",
-    "name": null,
-    "bio": null,
-    "followers": 1970,
-    "following": 1,
-    "public_repos": 12,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/hq450",
-    "created": "2018-08-26T10:05:47Z"
   },
   {
     "login": "zxfjd3g",
@@ -41258,20 +40082,6 @@
     "created": "2011-03-27T20:03:19Z"
   },
   {
-    "login": "gamozolabs",
-    "name": null,
-    "bio": null,
-    "followers": 1942,
-    "following": 0,
-    "public_repos": 86,
-    "company": null,
-    "location": null,
-    "blog": "https://bfa.lk",
-    "twitter": null,
-    "url": "https://github.com/gamozolabs",
-    "created": "2015-07-26T07:21:16Z"
-  },
-  {
     "login": "TheAlexLichter",
     "name": "Alexander Lichter",
     "bio": "DevRel @voidzero-dev • Web Engineering Consultant • @nuxt team • Speaker • Podcast Host\r\n",
@@ -41706,20 +40516,6 @@
     "created": "2011-09-09T07:17:46Z"
   },
   {
-    "login": "PKUanonym",
-    "name": null,
-    "bio": null,
-    "followers": 1929,
-    "following": 1,
-    "public_repos": 1,
-    "company": "世界一流大学",
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/PKUanonym",
-    "created": "2019-04-05T03:29:33Z"
-  },
-  {
     "login": "bdraco",
     "name": "J. Nick Koston",
     "bio": "If you enjoy my open source work, please consider donating to the Maui Food Bank",
@@ -41972,20 +40768,6 @@
     "created": "2010-11-26T12:24:30Z"
   },
   {
-    "login": "nixzhu",
-    "name": null,
-    "bio": null,
-    "followers": 1923,
-    "following": 0,
-    "public_repos": 59,
-    "company": null,
-    "location": null,
-    "blog": "https://nixzhu.dev",
-    "twitter": "nixzhu",
-    "url": "https://github.com/nixzhu",
-    "created": "2010-10-11T10:42:56Z"
-  },
-  {
     "login": "CSbyGB",
     "name": "C.S. by G.B.",
     "bio": "Ethical Hacker 🏳 | Top IFSEC Global 2022 | Woman Hacker 2022 | Board Member |Speaker |  Mentor🏳️‍🌈",
@@ -42026,20 +40808,6 @@
     "twitter": null,
     "url": "https://github.com/arogozhnikov",
     "created": "2014-01-04T17:11:07Z"
-  },
-  {
-    "login": "Exrick",
-    "name": null,
-    "bio": null,
-    "followers": 1922,
-    "following": 5,
-    "public_repos": 16,
-    "company": null,
-    "location": null,
-    "blog": "http://blog.exrick.cn/",
-    "twitter": null,
-    "url": "https://github.com/Exrick",
-    "created": "2016-10-18T03:56:20Z"
   },
   {
     "login": "dotansimha",
@@ -43526,20 +42294,6 @@
     "created": "2011-01-07T00:32:46Z"
   },
   {
-    "login": "dataiteam",
-    "name": null,
-    "bio": null,
-    "followers": 1879,
-    "following": 0,
-    "public_repos": 6,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/dataiteam",
-    "created": "2019-03-03T20:34:36Z"
-  },
-  {
     "login": "hackerhouse-opensource",
     "name": "Hacker House",
     "bio": "Hacker House public computer security research.",
@@ -43580,20 +42334,6 @@
     "twitter": "NoahZinsmeister",
     "url": "https://github.com/NoahZinsmeister",
     "created": "2013-03-04T03:27:15Z"
-  },
-  {
-    "login": "wukongdaily",
-    "name": null,
-    "bio": null,
-    "followers": 1878,
-    "following": 9,
-    "public_repos": 47,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/wukongdaily",
-    "created": "2023-08-31T02:41:39Z"
   },
   {
     "login": "komeiji-satori",
@@ -43888,20 +42628,6 @@
     "twitter": null,
     "url": "https://github.com/resouer",
     "created": "2012-05-03T09:14:21Z"
-  },
-  {
-    "login": "nschurmann",
-    "name": null,
-    "bio": null,
-    "followers": 1873,
-    "following": 2,
-    "public_repos": 39,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/nschurmann",
-    "created": "2013-07-26T20:34:52Z"
   },
   {
     "login": "ngaut",
@@ -44324,20 +43050,6 @@
     "created": "2012-01-20T17:37:03Z"
   },
   {
-    "login": "agnostic-apollo",
-    "name": null,
-    "bio": null,
-    "followers": 1861,
-    "following": 0,
-    "public_repos": 35,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/agnostic-apollo",
-    "created": "2017-08-17T16:25:26Z"
-  },
-  {
     "login": "itgoyo",
     "name": "编程吴彦祖 代码蔡徐坤",
     "bio": "Don't be a programmer，Be a problem solver.",
@@ -44546,20 +43258,6 @@
     "twitter": null,
     "url": "https://github.com/airingursb",
     "created": "2015-01-13T09:55:59Z"
-  },
-  {
-    "login": "koide3",
-    "name": null,
-    "bio": null,
-    "followers": 1856,
-    "following": 3,
-    "public_repos": 119,
-    "company": "AIST",
-    "location": "Japan",
-    "blog": "https://staff.aist.go.jp/k.koide/",
-    "twitter": "k_koide3",
-    "url": "https://github.com/koide3",
-    "created": "2017-08-25T10:20:11Z"
   },
   {
     "login": "bigwhite",
@@ -44898,20 +43596,6 @@
     "created": "2008-05-18T20:22:48Z"
   },
   {
-    "login": "nzw9314",
-    "name": null,
-    "bio": null,
-    "followers": 1848,
-    "following": 32,
-    "public_repos": 20,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/nzw9314",
-    "created": "2019-07-06T13:20:42Z"
-  },
-  {
     "login": "ehsandeep",
     "name": "Sandeep Singh",
     "bio": "Co-Founder / CTO @projectdiscovery \r\n\r\nOn a mission to simplify the security process and make it more accessible.\r\n\r\n",
@@ -45050,20 +43734,6 @@
     "twitter": null,
     "url": "https://github.com/colodenn",
     "created": "2018-09-30T18:50:30Z"
-  },
-  {
-    "login": "jake100",
-    "name": null,
-    "bio": null,
-    "followers": 1840,
-    "following": 8404,
-    "public_repos": 67,
-    "company": null,
-    "location": null,
-    "blog": "https://demongeneral.itch.io",
-    "twitter": null,
-    "url": "https://github.com/jake100",
-    "created": "2013-10-28T00:24:53Z"
   },
   {
     "login": "Microsoft-OpenSource-Labs",
@@ -45484,34 +44154,6 @@
     "twitter": "submitaitools",
     "url": "https://github.com/submitaitools",
     "created": "2025-04-18T09:24:06Z"
-  },
-  {
-    "login": "monun",
-    "name": null,
-    "bio": null,
-    "followers": 1829,
-    "following": 2,
-    "public_repos": 16,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/monun",
-    "created": "2021-01-16T10:23:41Z"
-  },
-  {
-    "login": "rebeyond",
-    "name": null,
-    "bio": null,
-    "followers": 1829,
-    "following": 0,
-    "public_repos": 10,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/rebeyond",
-    "created": "2015-12-13T03:51:06Z"
   },
   {
     "login": "alisongbs",
@@ -45976,20 +44618,6 @@
     "created": "2012-05-12T11:38:41Z"
   },
   {
-    "login": "Tib3rius",
-    "name": null,
-    "bio": null,
-    "followers": 1819,
-    "following": 0,
-    "public_repos": 36,
-    "company": null,
-    "location": null,
-    "blog": "https://tib3rius.com",
-    "twitter": null,
-    "url": "https://github.com/Tib3rius",
-    "created": "2019-03-01T04:25:07Z"
-  },
-  {
     "login": "rishabkumar7",
     "name": "Rishab Kumar",
     "bio": "@twilio • @learntocloud \r\n",
@@ -46030,20 +44658,6 @@
     "twitter": null,
     "url": "https://github.com/AmirhoseinHesami",
     "created": "2021-06-26T19:57:08Z"
-  },
-  {
-    "login": "iikira",
-    "name": null,
-    "bio": null,
-    "followers": 1817,
-    "following": 3,
-    "public_repos": 37,
-    "company": null,
-    "location": "中国",
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/iikira",
-    "created": "2016-05-02T17:32:44Z"
   },
   {
     "login": "BrodieRobertson",
@@ -46228,20 +44842,6 @@
     "created": "2010-02-21T23:45:20Z"
   },
   {
-    "login": "lihaoyun6",
-    "name": null,
-    "bio": null,
-    "followers": 1814,
-    "following": 0,
-    "public_repos": 70,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/lihaoyun6",
-    "created": "2015-12-18T08:45:38Z"
-  },
-  {
     "login": "obscuren",
     "name": "Jeffrey Wilcke",
     "bio": "Video Game Developer, CEO & Founder of @Grid-Games and @ethereum & Gopher",
@@ -46366,20 +44966,6 @@
     "twitter": null,
     "url": "https://github.com/feifeibear",
     "created": "2013-10-17T06:39:47Z"
-  },
-  {
-    "login": "00mjk",
-    "name": null,
-    "bio": null,
-    "followers": 1808,
-    "following": 18355,
-    "public_repos": 12105,
-    "company": null,
-    "location": null,
-    "blog": "https://m.youtube.com/channel/UCuWi5pi1B92l1VgOOYIdGKw",
-    "twitter": "Mjkalasky2",
-    "url": "https://github.com/00mjk",
-    "created": "2020-10-27T15:11:31Z"
   },
   {
     "login": "LysandreJik",
@@ -47502,20 +46088,6 @@
     "created": "2015-03-05T10:30:01Z"
   },
   {
-    "login": "Moriafly",
-    "name": null,
-    "bio": null,
-    "followers": 1782,
-    "following": 17,
-    "public_repos": 93,
-    "company": null,
-    "location": null,
-    "blog": "moriafly.com",
-    "twitter": null,
-    "url": "https://github.com/Moriafly",
-    "created": "2020-03-18T03:14:00Z"
-  },
-  {
     "login": "shahriar0999",
     "name": "Shahriar Kabir",
     "bio": "Aspiring Data Scientist",
@@ -47570,34 +46142,6 @@
     "twitter": "labnol",
     "url": "https://github.com/labnol",
     "created": "2012-01-18T09:53:40Z"
-  },
-  {
-    "login": "DuyTrungONT",
-    "name": null,
-    "bio": null,
-    "followers": 1779,
-    "following": 0,
-    "public_repos": 1,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/DuyTrungONT",
-    "created": "2018-05-09T12:44:16Z"
-  },
-  {
-    "login": "Hvass-Labs",
-    "name": null,
-    "bio": null,
-    "followers": 1779,
-    "following": 0,
-    "public_repos": 22,
-    "company": "Hvass Laboratories",
-    "location": null,
-    "blog": "http://www.hvass-labs.org",
-    "twitter": null,
-    "url": "https://github.com/Hvass-Labs",
-    "created": "2015-07-31T12:36:21Z"
   },
   {
     "login": "Netskao",
@@ -47894,20 +46438,6 @@
     "created": "2022-09-03T17:01:31Z"
   },
   {
-    "login": "LinuxPath",
-    "name": null,
-    "bio": null,
-    "followers": 1772,
-    "following": 4375,
-    "public_repos": 1,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/LinuxPath",
-    "created": "2020-12-07T01:14:58Z"
-  },
-  {
     "login": "techiescamp",
     "name": "DevOpsCube",
     "bio": "Practical DevOps Learning Platform -  Gain access to structured learning paths, ready-to-use DevOps IaC and hands-on tutorials for popular DevOps tools.",
@@ -48104,20 +46634,6 @@
     "created": "2013-02-25T07:41:54Z"
   },
   {
-    "login": "fiverrSellerIntegration",
-    "name": null,
-    "bio": null,
-    "followers": 1767,
-    "following": 0,
-    "public_repos": 0,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/fiverrSellerIntegration",
-    "created": "2019-02-28T13:18:55Z"
-  },
-  {
     "login": "punkpeye",
     "name": "Frank Fiegel",
     "bio": "Engineer turned founder",
@@ -48130,20 +46646,6 @@
     "twitter": "punkpeye",
     "url": "https://github.com/punkpeye",
     "created": "2022-06-28T02:19:25Z"
-  },
-  {
-    "login": "androidmalware",
-    "name": null,
-    "bio": null,
-    "followers": 1767,
-    "following": 0,
-    "public_repos": 6,
-    "company": null,
-    "location": null,
-    "blog": "https://mobile-hacker.com",
-    "twitter": "androidmalware2",
-    "url": "https://github.com/androidmalware",
-    "created": "2015-03-04T18:28:13Z"
   },
   {
     "login": "laurindoisaac",
@@ -48186,20 +46688,6 @@
     "twitter": null,
     "url": "https://github.com/REMitchell",
     "created": "2010-11-05T14:31:02Z"
-  },
-  {
-    "login": "probonopd",
-    "name": null,
-    "bio": null,
-    "followers": 1765,
-    "following": 100,
-    "public_repos": 696,
-    "company": null,
-    "location": "Germany",
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/probonopd",
-    "created": "2012-10-03T16:48:41Z"
   },
   {
     "login": "ClusterM",
@@ -48314,20 +46802,6 @@
     "created": "2011-05-07T13:27:15Z"
   },
   {
-    "login": "adammyhre",
-    "name": null,
-    "bio": null,
-    "followers": 1762,
-    "following": 4,
-    "public_repos": 54,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/adammyhre",
-    "created": "2018-05-01T06:09:05Z"
-  },
-  {
     "login": "luchina-gabriel",
     "name": "Gabriel Luchina",
     "bio": "Hackintosh and much more! :)",
@@ -48340,20 +46814,6 @@
     "twitter": null,
     "url": "https://github.com/luchina-gabriel",
     "created": "2016-11-23T12:52:16Z"
-  },
-  {
-    "login": "makermoekoe",
-    "name": null,
-    "bio": null,
-    "followers": 1762,
-    "following": 8,
-    "public_repos": 18,
-    "company": null,
-    "location": "Dortmund, Germany",
-    "blog": "https://www.instagram.com/maker.moekoe/",
-    "twitter": null,
-    "url": "https://github.com/makermoekoe",
-    "created": "2016-12-15T13:44:05Z"
   },
   {
     "login": "Fadhaa",
@@ -48424,20 +46884,6 @@
     "twitter": null,
     "url": "https://github.com/cwilso",
     "created": "2010-12-02T18:54:53Z"
-  },
-  {
-    "login": "nagadomi",
-    "name": null,
-    "bio": null,
-    "followers": 1760,
-    "following": 29,
-    "public_repos": 64,
-    "company": null,
-    "location": " Japan",
-    "blog": "https://www.kaggle.com/nagadomi",
-    "twitter": null,
-    "url": "https://github.com/nagadomi",
-    "created": "2010-05-26T02:28:40Z"
   },
   {
     "login": "iSafeBlue",
@@ -48832,20 +47278,6 @@
     "created": "2013-09-28T05:20:43Z"
   },
   {
-    "login": "glepnir",
-    "name": null,
-    "bio": null,
-    "followers": 1748,
-    "following": 12,
-    "public_repos": 26,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/glepnir",
-    "created": "2018-07-25T07:57:39Z"
-  },
-  {
     "login": "iam-peekay",
     "name": "Preethi Kasireddy",
     "bio": "I love coding, writing, fitness & reading. You'll find me always learning/exploring new things, and then writing about it :)\r\n\r\nFind me @iam_preethi",
@@ -49196,20 +47628,6 @@
     "created": "2013-07-29T06:55:12Z"
   },
   {
-    "login": "bbypink",
-    "name": null,
-    "bio": null,
-    "followers": 1740,
-    "following": 1,
-    "public_repos": 2,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/bbypink",
-    "created": "2022-09-20T22:04:08Z"
-  },
-  {
     "login": "leo",
     "name": "Leo Lamprecht",
     "bio": null,
@@ -49278,20 +47696,6 @@
     "twitter": "brntbeer",
     "url": "https://github.com/brntbeer",
     "created": "2009-01-08T18:51:00Z"
-  },
-  {
-    "login": "ephtracy",
-    "name": null,
-    "bio": null,
-    "followers": 1737,
-    "following": 7,
-    "public_repos": 6,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/ephtracy",
-    "created": "2013-09-12T18:27:36Z"
   },
   {
     "login": "alysonla",
@@ -49404,20 +47808,6 @@
     "twitter": "parth_webdev",
     "url": "https://github.com/parthwebdev",
     "created": "2022-05-25T08:22:34Z"
-  },
-  {
-    "login": "samczsun",
-    "name": null,
-    "bio": null,
-    "followers": 1732,
-    "following": 0,
-    "public_repos": 3,
-    "company": null,
-    "location": null,
-    "blog": "https://samczsun.com",
-    "twitter": "samczsun",
-    "url": "https://github.com/samczsun",
-    "created": "2014-12-24T23:02:12Z"
   },
   {
     "login": "foru17",
@@ -49980,20 +48370,6 @@
     "created": "2014-06-02T03:39:18Z"
   },
   {
-    "login": "ba7omaid",
-    "name": null,
-    "bio": null,
-    "followers": 1717,
-    "following": 5,
-    "public_repos": 1,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/ba7omaid",
-    "created": "2020-03-18T10:07:03Z"
-  },
-  {
     "login": "beaufortfrancois",
     "name": "François Beaufort",
     "bio": "Happiness Evangelist @GoogleChrome",
@@ -50132,34 +48508,6 @@
     "twitter": null,
     "url": "https://github.com/juliangruber",
     "created": "2008-05-14T10:48:08Z"
-  },
-  {
-    "login": "RVC-Boss",
-    "name": null,
-    "bio": null,
-    "followers": 1714,
-    "following": 3,
-    "public_repos": 5,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/RVC-Boss",
-    "created": "2023-03-27T09:52:35Z"
-  },
-  {
-    "login": "TiffinTech",
-    "name": null,
-    "bio": null,
-    "followers": 1713,
-    "following": 0,
-    "public_repos": 19,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/TiffinTech",
-    "created": "2022-02-16T19:20:53Z"
   },
   {
     "login": "ikuzweelisa",
@@ -50358,34 +48706,6 @@
     "created": "2018-10-18T13:46:09Z"
   },
   {
-    "login": "vonssy",
-    "name": null,
-    "bio": null,
-    "followers": 1708,
-    "following": 0,
-    "public_repos": 200,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/vonssy",
-    "created": "2021-06-21T02:59:37Z"
-  },
-  {
-    "login": "Zulko",
-    "name": null,
-    "bio": null,
-    "followers": 1707,
-    "following": 24,
-    "public_repos": 55,
-    "company": "@ginkgobioworks",
-    "location": "Cambridge, MA",
-    "blog": "http://zulko.github.io",
-    "twitter": null,
-    "url": "https://github.com/Zulko",
-    "created": "2012-04-15T20:41:46Z"
-  },
-  {
     "login": "RocketGod-git",
     "name": "RocketGod",
     "bio": "I'm not a programmer... it's just a hobby.",
@@ -50540,20 +48860,6 @@
     "created": "2023-02-25T07:41:10Z"
   },
   {
-    "login": "VolosR",
-    "name": null,
-    "bio": null,
-    "followers": 1703,
-    "following": 2,
-    "public_repos": 245,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/VolosR",
-    "created": "2020-03-21T07:06:04Z"
-  },
-  {
     "login": "andrelugomes",
     "name": "André Luis Gomes",
     "bio": "Software Engineering Specialist at @pagseguro, Brazil. Developer as job and hobby. Open source enthusiast. Go @opensanca\r\n",
@@ -50566,20 +48872,6 @@
     "twitter": "andrelugomes",
     "url": "https://github.com/andrelugomes",
     "created": "2011-12-07T17:01:16Z"
-  },
-  {
-    "login": "Bifenzine",
-    "name": null,
-    "bio": null,
-    "followers": 1703,
-    "following": 3445,
-    "public_repos": 24,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/Bifenzine",
-    "created": "2023-08-09T19:08:01Z"
   },
   {
     "login": "watabou",
@@ -50622,20 +48914,6 @@
     "twitter": "blueedgetechno",
     "url": "https://github.com/blueedgetechno",
     "created": "2019-09-04T14:10:56Z"
-  },
-  {
-    "login": "webprogrammingunpas",
-    "name": null,
-    "bio": null,
-    "followers": 1702,
-    "following": 0,
-    "public_repos": 4,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/webprogrammingunpas",
-    "created": "2019-04-16T07:21:42Z"
   },
   {
     "login": "marvinhagemeister",
@@ -51044,20 +49322,6 @@
     "created": "2024-02-25T10:10:48Z"
   },
   {
-    "login": "ExchangeTrex",
-    "name": null,
-    "bio": null,
-    "followers": 1692,
-    "following": 0,
-    "public_repos": 1,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/ExchangeTrex",
-    "created": "2019-09-18T08:39:55Z"
-  },
-  {
     "login": "gdbinit",
     "name": "fG!",
     "bio": "I like debuggers, disassemblers, and C (and some Go)!\r\n",
@@ -51126,20 +49390,6 @@
     "twitter": null,
     "url": "https://github.com/edoardottt",
     "created": "2018-01-24T21:58:18Z"
-  },
-  {
-    "login": "DougDougGithub",
-    "name": null,
-    "bio": null,
-    "followers": 1691,
-    "following": 0,
-    "public_repos": 8,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/DougDougGithub",
-    "created": "2022-08-24T20:05:29Z"
   },
   {
     "login": "mocheng",
@@ -51352,20 +49602,6 @@
     "created": "2022-06-10T09:46:11Z"
   },
   {
-    "login": "HeYijia",
-    "name": null,
-    "bio": null,
-    "followers": 1685,
-    "following": 86,
-    "public_repos": 36,
-    "company": "CASIA",
-    "location": "BeiJing,China",
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/HeYijia",
-    "created": "2015-04-01T09:18:29Z"
-  },
-  {
     "login": "craigsdennis",
     "name": "Craig Dennis",
     "bio": "Developer Educator, AI @cloudflare ",
@@ -51492,20 +49728,6 @@
     "created": "2016-06-22T05:39:44Z"
   },
   {
-    "login": "kpwn",
-    "name": null,
-    "bio": null,
-    "followers": 1682,
-    "following": 4,
-    "public_repos": 23,
-    "company": "kjc research",
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/kpwn",
-    "created": "2012-04-23T17:35:27Z"
-  },
-  {
     "login": "justmeandopensource",
     "name": "Venkat Nagappan",
     "bio": null,
@@ -51546,20 +49768,6 @@
     "twitter": null,
     "url": "https://github.com/deyvin",
     "created": "2010-01-15T18:12:10Z"
-  },
-  {
-    "login": "n1nj4sec",
-    "name": null,
-    "bio": null,
-    "followers": 1681,
-    "following": 20,
-    "public_repos": 20,
-    "company": null,
-    "location": "France",
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/n1nj4sec",
-    "created": "2015-05-21T18:15:49Z"
   },
   {
     "login": "arendst",
@@ -51714,20 +49922,6 @@
     "twitter": null,
     "url": "https://github.com/shama",
     "created": "2009-06-28T03:34:20Z"
-  },
-  {
-    "login": "androidmalin",
-    "name": null,
-    "bio": null,
-    "followers": 1679,
-    "following": 62,
-    "public_repos": 158,
-    "company": null,
-    "location": null,
-    "blog": "https://play.google.com/store/apps/details?id=com.malin.video",
-    "twitter": null,
-    "url": "https://github.com/androidmalin",
-    "created": "2013-11-17T06:19:24Z"
   },
   {
     "login": "johnsoncodehk",
@@ -52010,20 +50204,6 @@
     "created": "2023-06-14T10:56:46Z"
   },
   {
-    "login": "yakeIore",
-    "name": null,
-    "bio": null,
-    "followers": 1673,
-    "following": 1411,
-    "public_repos": 5,
-    "company": "FRIENDS @iousuz",
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/yakeIore",
-    "created": "2026-03-22T16:22:41Z"
-  },
-  {
     "login": "feicong",
     "name": "feicong",
     "bio": null,
@@ -52092,20 +50272,6 @@
     "twitter": null,
     "url": "https://github.com/Devinterview-io",
     "created": "2021-01-05T06:07:53Z"
-  },
-  {
-    "login": "seven332",
-    "name": null,
-    "bio": null,
-    "followers": 1670,
-    "following": 15,
-    "public_repos": 154,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/seven332",
-    "created": "2013-03-31T10:29:57Z"
   },
   {
     "login": "Peti6inge",
@@ -52638,20 +50804,6 @@
     "twitter": null,
     "url": "https://github.com/scottbez1",
     "created": "2010-09-24T21:02:04Z"
-  },
-  {
-    "login": "morrolinux",
-    "name": null,
-    "bio": null,
-    "followers": 1659,
-    "following": 6,
-    "public_repos": 51,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/morrolinux",
-    "created": "2016-07-05T06:19:27Z"
   },
   {
     "login": "javiereguiluz",
@@ -53228,20 +51380,6 @@
     "created": "2016-08-27T18:17:51Z"
   },
   {
-    "login": "cocomelonc",
-    "name": null,
-    "bio": null,
-    "followers": 1644,
-    "following": 69,
-    "public_repos": 116,
-    "company": null,
-    "location": null,
-    "blog": "https://cocomelonc.github.io/",
-    "twitter": null,
-    "url": "https://github.com/cocomelonc",
-    "created": "2020-06-16T03:14:49Z"
-  },
-  {
     "login": "zsdonghao",
     "name": "Hao",
     "bio": "Associate Professor @ Peking University",
@@ -53254,20 +51392,6 @@
     "twitter": null,
     "url": "https://github.com/zsdonghao",
     "created": "2015-01-26T19:01:31Z"
-  },
-  {
-    "login": "LmeSzinc",
-    "name": null,
-    "bio": null,
-    "followers": 1644,
-    "following": 6,
-    "public_repos": 20,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/LmeSzinc",
-    "created": "2018-03-30T14:41:16Z"
   },
   {
     "login": "laixintao",
@@ -53746,20 +51870,6 @@
     "created": "2015-07-13T03:13:00Z"
   },
   {
-    "login": "paul-gauthier",
-    "name": null,
-    "bio": null,
-    "followers": 1497,
-    "following": 4,
-    "public_repos": 20,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/paul-gauthier",
-    "created": "2020-08-14T19:51:06Z"
-  },
-  {
     "login": "insoxin",
     "name": "1",
     "bio": null,
@@ -53968,20 +52078,6 @@
     "twitter": null,
     "url": "https://github.com/Lisprez",
     "created": "2015-09-23T17:01:43Z"
-  },
-  {
-    "login": "mycodeschool",
-    "name": null,
-    "bio": null,
-    "followers": 1493,
-    "following": 0,
-    "public_repos": 0,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/mycodeschool",
-    "created": "2013-09-24T09:45:33Z"
   },
   {
     "login": "adg",
@@ -54572,20 +52668,6 @@
     "created": "2015-02-07T00:50:38Z"
   },
   {
-    "login": "harshadvali11",
-    "name": null,
-    "bio": null,
-    "followers": 1484,
-    "following": 4,
-    "public_repos": 442,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/harshadvali11",
-    "created": "2020-05-28T07:23:03Z"
-  },
-  {
     "login": "Daniolet",
     "name": "Cody",
     "bio": null,
@@ -54612,20 +52694,6 @@
     "twitter": null,
     "url": "https://github.com/ualehosaini",
     "created": "2019-05-13T18:57:11Z"
-  },
-  {
-    "login": "CyberZHG",
-    "name": null,
-    "bio": null,
-    "followers": 1483,
-    "following": 1,
-    "public_repos": 73,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/CyberZHG",
-    "created": "2011-06-16T10:52:02Z"
   },
   {
     "login": "weblate",
@@ -55214,20 +53282,6 @@
     "twitter": "drmingdrmer",
     "url": "https://github.com/drmingdrmer",
     "created": "2009-01-04T09:25:00Z"
-  },
-  {
-    "login": "Semporia",
-    "name": null,
-    "bio": null,
-    "followers": 1473,
-    "following": 13,
-    "public_repos": 37,
-    "company": null,
-    "location": "Dover",
-    "blog": "https://semporia.top",
-    "twitter": null,
-    "url": "https://github.com/Semporia",
-    "created": "2017-07-06T05:36:04Z"
   },
   {
     "login": "sunnyyoung",
@@ -56238,20 +54292,6 @@
     "created": "2025-09-29T18:50:51Z"
   },
   {
-    "login": "icepy",
-    "name": null,
-    "bio": null,
-    "followers": 1457,
-    "following": 35,
-    "public_repos": 15,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": "i_icepy",
-    "url": "https://github.com/icepy",
-    "created": "2013-01-20T16:35:59Z"
-  },
-  {
     "login": "thomasdavis",
     "name": "Thomas Davis",
     "bio": "Co-Founder of cdnjs.com\r\nCo-Founder of jsonresume.org",
@@ -56420,20 +54460,6 @@
     "created": "2012-03-01T13:16:13Z"
   },
   {
-    "login": "MelikaRezazadeh",
-    "name": null,
-    "bio": null,
-    "followers": 1453,
-    "following": 2827,
-    "public_repos": 4,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/MelikaRezazadeh",
-    "created": "2024-07-31T10:31:37Z"
-  },
-  {
     "login": "JosePaumard",
     "name": "José Paumard",
     "bio": "Java DevRel Advocate @Oracle",
@@ -56558,20 +54584,6 @@
     "twitter": null,
     "url": "https://github.com/danielgindi",
     "created": "2010-08-17T07:59:15Z"
-  },
-  {
-    "login": "xxxxxx",
-    "name": null,
-    "bio": null,
-    "followers": 1449,
-    "following": 0,
-    "public_repos": 0,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/xxxxxx",
-    "created": "2020-11-19T16:01:31Z"
   },
   {
     "login": "dhavalsays",
@@ -57456,20 +55468,6 @@
     "created": "2018-06-26T14:19:29Z"
   },
   {
-    "login": "mshumer",
-    "name": null,
-    "bio": null,
-    "followers": 1431,
-    "following": 0,
-    "public_repos": 40,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/mshumer",
-    "created": "2018-07-22T18:29:58Z"
-  },
-  {
     "login": "jorgebucaran",
     "name": "Jorge Bucaran",
     "bio": null,
@@ -57510,20 +55508,6 @@
     "twitter": null,
     "url": "https://github.com/ThirtyDegreesRay",
     "created": "2014-11-08T13:24:09Z"
-  },
-  {
-    "login": "Tzadiko",
-    "name": null,
-    "bio": null,
-    "followers": 1431,
-    "following": 0,
-    "public_repos": 5,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/Tzadiko",
-    "created": "2018-10-10T06:20:34Z"
   },
   {
     "login": "enigma0x3",
@@ -59080,20 +57064,6 @@
     "created": "2019-06-25T07:26:58Z"
   },
   {
-    "login": "mig1023",
-    "name": null,
-    "bio": null,
-    "followers": 1409,
-    "following": 914,
-    "public_repos": 20,
-    "company": null,
-    "location": "Moscow",
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/mig1023",
-    "created": "2018-12-01T11:48:09Z"
-  },
-  {
     "login": "Medicean",
     "name": "Medicean",
     "bio": "@opensec-cn @AntSwordProject @AntSword-Store ",
@@ -59232,20 +57202,6 @@
     "twitter": null,
     "url": "https://github.com/youngsoft",
     "created": "2013-12-25T06:53:44Z"
-  },
-  {
-    "login": "RoseSecurity",
-    "name": null,
-    "bio": null,
-    "followers": 1407,
-    "following": 16,
-    "public_repos": 23,
-    "company": "Palantir",
-    "location": "/dev/tty",
-    "blog": "https://rosesecurity.dev",
-    "twitter": null,
-    "url": "https://github.com/RoseSecurity",
-    "created": "2020-10-09T07:41:37Z"
   },
   {
     "login": "cstack",
@@ -59682,20 +57638,6 @@
     "created": "2014-06-30T18:07:57Z"
   },
   {
-    "login": "DivineEngine",
-    "name": null,
-    "bio": null,
-    "followers": 1400,
-    "following": 0,
-    "public_repos": 0,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/DivineEngine",
-    "created": "2019-12-21T02:53:18Z"
-  },
-  {
     "login": "antiagainst",
     "name": "Lei Zhang",
     "bio": "AI Compiler & Runtime. Currently: Triton, IREE, MLIR, LLVM. Previously: SPIR-V, Vulkan, Metal.",
@@ -59806,20 +57748,6 @@
     "twitter": "ycjcl",
     "url": "https://github.com/ycjcl868",
     "created": "2015-08-01T01:31:53Z"
-  },
-  {
-    "login": "bastndev",
-    "name": null,
-    "bio": null,
-    "followers": 1398,
-    "following": 21,
-    "public_repos": 152,
-    "company": "@microsoft",
-    "location": "Perú",
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/bastndev",
-    "created": "2022-09-19T23:13:30Z"
   },
   {
     "login": "lazywinadmin",
@@ -60114,20 +58042,6 @@
     "twitter": "ZeYanjie",
     "url": "https://github.com/YanjieZe",
     "created": "2020-01-09T15:40:43Z"
-  },
-  {
-    "login": "stephenmcd",
-    "name": null,
-    "bio": null,
-    "followers": 1396,
-    "following": 0,
-    "public_repos": 87,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/stephenmcd",
-    "created": "2009-08-18T00:20:11Z"
   },
   {
     "login": "a7v8x",
@@ -60508,20 +58422,6 @@
     "created": "2008-10-31T04:34:48Z"
   },
   {
-    "login": "md-5",
-    "name": null,
-    "bio": null,
-    "followers": 1391,
-    "following": 14,
-    "public_repos": 85,
-    "company": "@SpigotMC",
-    "location": "Melbourne, Australia",
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/md-5",
-    "created": "2011-08-27T02:50:58Z"
-  },
-  {
     "login": "ironicbadger",
     "name": "Alex Kretzschmar",
     "bio": "I do stuff with computers and sometimes it works.",
@@ -60562,20 +58462,6 @@
     "twitter": null,
     "url": "https://github.com/samvermette",
     "created": "2010-05-05T20:11:46Z"
-  },
-  {
-    "login": "devttys0",
-    "name": null,
-    "bio": null,
-    "followers": 1391,
-    "following": 0,
-    "public_repos": 27,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/devttys0",
-    "created": "2013-10-16T18:51:09Z"
   },
   {
     "login": "wangding",
@@ -62300,20 +60186,6 @@
     "created": "2008-04-13T11:37:35Z"
   },
   {
-    "login": "IppSec",
-    "name": null,
-    "bio": null,
-    "followers": 1365,
-    "following": 2,
-    "public_repos": 20,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/IppSec",
-    "created": "2016-12-20T13:07:56Z"
-  },
-  {
     "login": "Taiga74164",
     "name": "Joaquin",
     "bio": "Software Engineering @ McMaster University | Reverse Engineering | Unity Game Dev",
@@ -62440,20 +60312,6 @@
     "created": "2020-01-09T05:12:50Z"
   },
   {
-    "login": "derekbanas",
-    "name": null,
-    "bio": null,
-    "followers": 1362,
-    "following": 0,
-    "public_repos": 50,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/derekbanas",
-    "created": "2012-06-23T21:46:05Z"
-  },
-  {
     "login": "TuPayChain",
     "name": "TuPay ",
     "bio": "“TUPE\" The world’s leading blockchain ecosystem and digital asset exchange. and binging to crypto currency’s online payments platform with multiple services.\r\n",
@@ -62508,20 +60366,6 @@
     "twitter": "fideloper",
     "url": "https://github.com/fideloper",
     "created": "2010-11-04T14:28:49Z"
-  },
-  {
-    "login": "EspressifApp",
-    "name": null,
-    "bio": null,
-    "followers": 1362,
-    "following": 0,
-    "public_repos": 23,
-    "company": null,
-    "location": "Shanghai, China",
-    "blog": "https://www.espressif.com",
-    "twitter": null,
-    "url": "https://github.com/EspressifApp",
-    "created": "2015-04-20T07:49:16Z"
   },
   {
     "login": "ChristosChristofidis",
@@ -62690,20 +60534,6 @@
     "twitter": null,
     "url": "https://github.com/builtbyjonas",
     "created": "2021-03-27T16:30:19Z"
-  },
-  {
-    "login": "drduh",
-    "name": null,
-    "bio": null,
-    "followers": 1359,
-    "following": 13,
-    "public_repos": 13,
-    "company": null,
-    "location": "United States",
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/drduh",
-    "created": "2015-05-16T16:50:32Z"
   },
   {
     "login": "ashvardanian",
@@ -63546,20 +61376,6 @@
     "created": "2012-03-05T13:33:22Z"
   },
   {
-    "login": "smartcontracts",
-    "name": null,
-    "bio": null,
-    "followers": 1344,
-    "following": 2,
-    "public_repos": 71,
-    "company": "@ethereum-optimism",
-    "location": null,
-    "blog": "kelvinfichter.com",
-    "twitter": "kelvinfichter",
-    "url": "https://github.com/smartcontracts",
-    "created": "2015-09-15T17:51:25Z"
-  },
-  {
     "login": "Cassianosch",
     "name": "Cassiano Scheidemantel",
     "bio": "Programador Frontend - Programador CS",
@@ -63868,20 +61684,6 @@
     "created": "2012-06-17T14:01:38Z"
   },
   {
-    "login": "Raquel-Fernandez",
-    "name": null,
-    "bio": null,
-    "followers": 1337,
-    "following": 1456,
-    "public_repos": 6,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/Raquel-Fernandez",
-    "created": "2021-04-05T14:36:49Z"
-  },
-  {
     "login": "hishamhm",
     "name": "Hisham Muhammad",
     "bio": null,
@@ -64148,20 +61950,6 @@
     "created": "2019-07-25T16:19:41Z"
   },
   {
-    "login": "aosabook",
-    "name": null,
-    "bio": null,
-    "followers": 1332,
-    "following": 0,
-    "public_repos": 2,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/aosabook",
-    "created": "2013-10-07T18:37:46Z"
-  },
-  {
     "login": "Chamepp",
     "name": "Ashkan Ebtekari",
     "bio": "Helping companies to get a leg up in the software market | OSS Contributor @Apple | Community Leader @Micorsoft | Author @freeCodeCamp",
@@ -64232,20 +62020,6 @@
     "created": "2012-11-26T01:44:09Z"
   },
   {
-    "login": "ivysone",
-    "name": null,
-    "bio": null,
-    "followers": 1330,
-    "following": 154,
-    "public_repos": 3,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/ivysone",
-    "created": "2024-10-27T16:51:22Z"
-  },
-  {
     "login": "piupauspide",
     "name": "𐚁┆𝐏𝐈𝐃𝐄 · � ",
     "bio": "★ follow back ",
@@ -64258,20 +62032,6 @@
     "twitter": null,
     "url": "https://github.com/piupauspide",
     "created": "2024-12-27T13:13:57Z"
-  },
-  {
-    "login": "MentalOutlaw",
-    "name": null,
-    "bio": null,
-    "followers": 1330,
-    "following": 0,
-    "public_repos": 12,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/MentalOutlaw",
-    "created": "2019-03-30T04:13:26Z"
   },
   {
     "login": "Linux-Player",
@@ -65128,20 +62888,6 @@
     "created": "2009-09-27T01:49:44Z"
   },
   {
-    "login": "flankerhqd",
-    "name": null,
-    "bio": null,
-    "followers": 1319,
-    "following": 67,
-    "public_repos": 97,
-    "company": null,
-    "location": null,
-    "blog": "http://weibo.com/2214340953/",
-    "twitter": null,
-    "url": "https://github.com/flankerhqd",
-    "created": "2012-09-03T10:14:41Z"
-  },
-  {
     "login": "MattIPv4",
     "name": "Matt Cowley",
     "bio": "Open-source Software Engineer by night @AlveusGG 🌎 + @nodejs 💚 + @cdnjs 🛠️",
@@ -65702,20 +63448,6 @@
     "created": "2009-08-25T13:46:55Z"
   },
   {
-    "login": "comex",
-    "name": null,
-    "bio": null,
-    "followers": 1310,
-    "following": 0,
-    "public_repos": 154,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/comex",
-    "created": "2009-01-18T20:21:26Z"
-  },
-  {
     "login": "naklecha",
     "name": "Nishant Aklecha",
     "bio": "i code sometimes :)",
@@ -66080,20 +63812,6 @@
     "created": "2011-08-22T19:48:18Z"
   },
   {
-    "login": "StanislavPetrovV",
-    "name": null,
-    "bio": null,
-    "followers": 1306,
-    "following": 1,
-    "public_repos": 48,
-    "company": null,
-    "location": "Russia",
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/StanislavPetrovV",
-    "created": "2017-12-11T13:25:22Z"
-  },
-  {
     "login": "otaviolemos",
     "name": "Otavio Lemos",
     "bio": "Associate Professor @ ICT-UNIFESP.\r\nSeeker of truth. Software developer & researcher. Agile development enthusiast. ",
@@ -66106,20 +63824,6 @@
     "twitter": "otaviolemos",
     "url": "https://github.com/otaviolemos",
     "created": "2012-06-18T18:49:09Z"
-  },
-  {
-    "login": "swlaschin",
-    "name": null,
-    "bio": null,
-    "followers": 1306,
-    "following": 0,
-    "public_repos": 41,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/swlaschin",
-    "created": "2012-05-15T20:12:24Z"
   },
   {
     "login": "XO-Roham",
@@ -66402,20 +64106,6 @@
     "created": "2016-10-29T18:41:45Z"
   },
   {
-    "login": "olivierlarose",
-    "name": null,
-    "bio": null,
-    "followers": 1304,
-    "following": 0,
-    "public_repos": 64,
-    "company": null,
-    "location": null,
-    "blog": "https://www.olivierlarose.com/",
-    "twitter": null,
-    "url": "https://github.com/olivierlarose",
-    "created": "2018-10-11T19:09:20Z"
-  },
-  {
     "login": "nneonneo",
     "name": "Robert Xiao",
     "bio": "HCI researcher, CTF player.",
@@ -66682,20 +64372,6 @@
     "created": "2011-12-06T04:13:57Z"
   },
   {
-    "login": "airockchip",
-    "name": null,
-    "bio": null,
-    "followers": 1300,
-    "following": 0,
-    "public_repos": 28,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/airockchip",
-    "created": "2019-11-20T07:55:56Z"
-  },
-  {
     "login": "zRzRzRzRzRzRzR",
     "name": "Yuxuan Zhang",
     "bio": "I’m working at @zai-org , focusing on algorithms and open-source contributions.",
@@ -66778,20 +64454,6 @@
     "twitter": null,
     "url": "https://github.com/elisxne",
     "created": "2022-12-20T17:45:36Z"
-  },
-  {
-    "login": "bautistaaa",
-    "name": null,
-    "bio": null,
-    "followers": 1299,
-    "following": 11,
-    "public_repos": 62,
-    "company": null,
-    "location": "Los Angeles, CA",
-    "blog": "www.typehero.dev",
-    "twitter": "typeheroapp",
-    "url": "https://github.com/bautistaaa",
-    "created": "2013-02-21T15:30:16Z"
   },
   {
     "login": "blaCCkHatHacEEkr",
@@ -66920,20 +64582,6 @@
     "created": "2011-12-14T16:12:15Z"
   },
   {
-    "login": "yankils",
-    "name": null,
-    "bio": null,
-    "followers": 1298,
-    "following": 0,
-    "public_repos": 16,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/yankils",
-    "created": "2018-12-23T05:24:14Z"
-  },
-  {
     "login": "ykob",
     "name": "Yoichi Kobayashi",
     "bio": "I work as a frontend developer in Tokyo.",
@@ -67030,20 +64678,6 @@
     "twitter": "olanetsoft",
     "url": "https://github.com/Olanetsoft",
     "created": "2018-12-13T11:13:29Z"
-  },
-  {
-    "login": "alphaSeclab",
-    "name": null,
-    "bio": null,
-    "followers": 1296,
-    "following": 0,
-    "public_repos": 29,
-    "company": null,
-    "location": null,
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/alphaSeclab",
-    "created": "2018-07-27T08:08:51Z"
   },
   {
     "login": "Berkantcen",
@@ -67268,20 +64902,6 @@
     "twitter": null,
     "url": "https://github.com/ravdy",
     "created": "2017-08-10T17:09:00Z"
-  },
-  {
-    "login": "skelsec",
-    "name": null,
-    "bio": null,
-    "followers": 1293,
-    "following": 2,
-    "public_repos": 97,
-    "company": null,
-    "location": null,
-    "blog": "https://twitter.com/SkelSec",
-    "twitter": null,
-    "url": "https://github.com/skelsec",
-    "created": "2016-05-05T10:24:00Z"
   },
   {
     "login": "binghe",
@@ -67548,20 +65168,6 @@
     "twitter": "YuZhao48340494",
     "url": "https://github.com/Chanzhaoyu",
     "created": "2016-12-27T08:49:08Z"
-  },
-  {
-    "login": "zxh0",
-    "name": null,
-    "bio": null,
-    "followers": 1290,
-    "following": 4,
-    "public_repos": 13,
-    "company": null,
-    "location": "Beijing",
-    "blog": "",
-    "twitter": null,
-    "url": "https://github.com/zxh0",
-    "created": "2013-09-21T12:43:20Z"
   },
   {
     "login": "kimmy-wang",
