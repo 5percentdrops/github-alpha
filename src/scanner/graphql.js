@@ -5,7 +5,7 @@
  */
 
 const GRAPHQL_URL = 'https://api.github.com/graphql';
-const BATCH_SIZE = 20; // conservative to avoid query complexity limits
+const BATCH_SIZE = 5; // GitHub GraphQL 502s above ~8 users with nested commit history
 const RATE_PAUSE_MS = 1000;
 
 function sleep(ms) {
@@ -23,7 +23,7 @@ function buildBatchQuery(logins) {
       ${alias}: user(login: "${login}") {
         login
         repositories(
-          first: 10
+          first: 5
           orderBy: { field: CREATED_AT, direction: DESC }
           ownerAffiliations: OWNER
           isFork: false
