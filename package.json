@@ -7,6 +7,14 @@
     "collect": "node scripts/collect-1k-followers.js",
     "analyze": "node src/analyzers/rising-stars.js"
   },
-  "keywords": ["github", "intelligence", "trading", "mission-control"],
-  "license": "MIT"
+  "keywords": [
+    "github",
+    "intelligence",
+    "trading",
+    "mission-control"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^12.9.0"
+  }
 }
