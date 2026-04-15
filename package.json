@@ -1,11 +1,15 @@
 {
   "name": "github-alpha",
   "version": "0.1.0",
-  "description": "GitHub developer intelligence for Mission Control UI",
+  "description": "GitHub developer intelligence for Action Control UI",
   "type": "module",
   "scripts": {
     "collect": "node scripts/collect-1k-followers.js",
-    "analyze": "node src/analyzers/rising-stars.js"
+    "seed": "node scripts/seed-developers.js",
+    "scan": "node src/scanner/run-scan.js",
+    "scan:hot": "node src/scanner/run-scan.js --hot-only",
+    "scan:test": "node src/scanner/run-scan.js --test 20",
+    "api": "node src/api/server.js"
   },
   "keywords": [
     "github",
