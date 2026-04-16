@@ -1,11 +1,11 @@
 /**
- * 6-stage filter pipeline + signal classifier.
+ * 6-stage filter pipeline + signal classifier (per Project Alpha PRD v1.0).
  *
  * Stage 1: Target list (handled by database)
  * Stage 2: Daily event ping (handled by GraphQL scanner)
  * Stage 3: Action filters — only CreateEvent + PushEvent (implicitly handled by GraphQL repo query)
- * Stage 4: Velocity trigger — 150/48h = ALPHA, 75-149 = HOT
- * Stage 5: Obscurity constraints — repo < 30d, stars < 10, watchers >= 3 AND > stars
+ * Stage 4: Velocity trigger — ≥50/48h = ALPHA, 30-49 = HOT, <30 = WATCHING, 0 = DORMANT
+ * Stage 5: Obscurity constraints — repo < 30d, stars < 10, watchers > stars
  * Stage 6: Day job exclusions — not org, not fork, personal namespace
  */
 
@@ -23,8 +23,8 @@ export function classifySignal(repo) {
   // Gate 3: Personal namespace (repo owner matches developer login)
   const gatePersonalNs = repo.repoOwner === repo.login ? 1 : 0;
 
-  // Gate 4: Velocity threshold (150/48h = ALPHA, 75-149 = HOT)
-  const gateVelocity = repo.commits48h >= 75 ? 1 : 0;
+  // Gate 4: Velocity threshold (PRD: ≥50/48h = ALPHA, 30-49 = HOT)
+  const gateVelocity = repo.commits48h >= 30 ? 1 : 0;
 
   // Gate 5: Repo age < 30 days
   const gateRepoAge = repo.repoAge < 30 ? 1 : 0;
@@ -32,21 +32,21 @@ export function classifySignal(repo) {
   // Gate 6: Stars < 10
   const gateStars = repo.stars < 10 ? 1 : 0;
 
-  // Gate 7: Watchers >= 3 AND watchers > stars
-  const gateWatchers = (repo.watchers >= 3 && repo.watchers > repo.stars) ? 1 : 0;
+  // Gate 7: Watchers > Stars (stealth insider attention signal per PRD)
+  const gateWatchers = repo.watchers > repo.stars ? 1 : 0;
 
   // All structural gates (everything except velocity)
   const structuralGatesPassed = gateNotOrg && gateNotFork && gatePersonalNs &&
     gateRepoAge && gateStars;
 
-  // Signal classification
+  // Signal classification (PRD §6)
   let signal = 'DORMANT';
 
   if (repo.commits48h === 0) {
     signal = 'DORMANT';
-  } else if (structuralGatesPassed && repo.commits48h >= 150) {
+  } else if (structuralGatesPassed && repo.commits48h >= 50) {
     signal = 'ALPHA';
-  } else if (structuralGatesPassed && repo.commits48h >= 75) {
+  } else if (structuralGatesPassed && repo.commits48h >= 30) {
     signal = 'HOT';
   } else if (repo.commits48h > 0) {
     signal = 'WATCHING';

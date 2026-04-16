@@ -1,16 +1,14 @@
 # GitHub Alpha
 
-GitHub developer intelligence pipeline for Action Control UI's GitHub Alpha card.
-Scans 7,719 high-follower devs, detects burst-commit activity on obscure new repos,
-sends Telegram alerts on ALPHA / HOT signals.
+GitHub developer intelligence pipeline for Action Control UI's GitHub Alpha card
+(per Project Alpha PRD v1.0). Scans 7,719 high-follower devs, detects burst-commit
+activity on obscure new personal repos. Output consumed by Action Control via HTTP API.
 
 ## Quick Start
 
 ```bash
-# env vars
-export GITHUB_TOKEN=...        # or rely on `gh auth token`
-export TELEGRAM_BOT_TOKEN=...  # optional — alerts skipped if unset
-export TELEGRAM_CHAT_ID=...
+# env
+export GITHUB_TOKEN=...   # or rely on `gh auth token`
 
 # one-off scans
 npm run scan          # full scan of all 7719 devs (~75min @ batch 10)
@@ -28,21 +26,21 @@ pm2 save                          # persist for resurrect
 
 | Service           | Cron        | Purpose                              |
 |-------------------|-------------|--------------------------------------|
-| alpha-api         | (always on) | HTTP API on :3847 for MCU            |
+| alpha-api         | (always on) | HTTP API on :3847 for Action Control |
 | alpha-daily-scan  | 02:00 UTC   | Full scan of all 7719 developers     |
 | alpha-hot-rescan  | every 6h    | Re-scan repos tagged HOT in last 24h |
 
-## Signal Tiers
+## Signal Tiers (PRD §6)
 
-| Signal   | commits/48h | Action                          |
-|----------|-------------|---------------------------------|
-| ALPHA    | ≥ 150       | Telegram alert (rare)           |
-| HOT      | 75–149      | Telegram alert                  |
-| WATCHING | 1–74        | Stored, no alert                |
-| DORMANT  | 0           | Stored                          |
+| Signal   | commits/48h | Description                                    |
+|----------|-------------|------------------------------------------------|
+| ⚡ ALPHA  | ≥ 50        | All 6 filter gates passed — pre-launch signal  |
+| 🔥 HOT    | 30 – 49     | Approaching velocity threshold                 |
+| 👁 WATCHING | 1 – 29      | Activity but below velocity threshold          |
+| — DORMANT | 0           | No qualifying activity                         |
 
-ALPHA / HOT also require all structural gates: not org, not fork, personal namespace,
-repo age < 30d, stars < 10. Watchers gate currently informational only.
+ALPHA / HOT require structural gates: not org, not fork, personal namespace,
+repo age < 30d, stars < 10. Watcher gate (watchers > stars) reported but informational.
 
 ## API Endpoints
 
