@@ -5,7 +5,7 @@
  */
 
 const GRAPHQL_URL = 'https://api.github.com/graphql';
-const BATCH_SIZE = 5; // GitHub GraphQL 502s above ~8 users with nested commit history
+const BATCH_SIZE = 10; // bumped from 5 — payload now lighter (totalCount, no node arrays)
 const RATE_PAUSE_MS = 1000;
 
 function sleep(ms) {
