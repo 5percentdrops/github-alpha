@@ -108,11 +108,11 @@ async function main() {
   for (const sig of signals) {
     insertScanResult(sig);
 
-    if (sig.signal === 'ALPHA' && !hasAlerted(sig.login, sig.repo)) {
+    if ((sig.signal === 'ALPHA' || sig.signal === 'HOT') && !hasAlerted(sig.login, sig.repo)) {
       await sendTelegramAlert(sig);
       recordAlert(sig.login, sig.repo, sig.signal);
       alertsSent++;
-      console.log(`   📨 Alert sent: ${sig.login}/${sig.repo}`);
+      console.log(`   📨 ${sig.signal} alert: ${sig.login}/${sig.repo}`);
     }
   }
 

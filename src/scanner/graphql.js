@@ -17,6 +17,10 @@ function sleep(ms) {
  * For each dev, gets repos created in the last 30 days + their commit activity.
  */
 function buildBatchQuery(logins) {
+  const since24h = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+  const since48h = new Date(Date.now() - 48 * 60 * 60 * 1000).toISOString();
+  const since7d = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString();
+
   const fragments = logins.map((login, i) => {
     const alias = `u${i}`;
     return `
@@ -41,12 +45,9 @@ function buildBatchQuery(logins) {
             defaultBranchRef {
               target {
                 ... on Commit {
-                  history(since: "${new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString()}") {
-                    totalCount
-                    nodes {
-                      committedDate
-                    }
-                  }
+                  h24: history(since: "${since24h}") { totalCount }
+                  h48: history(since: "${since48h}") { totalCount }
+                  h7d: history(since: "${since7d}") { totalCount }
                 }
               }
             }
@@ -132,19 +133,11 @@ function parseResponse(data) {
       const repoAge = Math.floor((now - createdAt.getTime()) / (1000 * 60 * 60 * 24));
       const isOrg = repo.owner.type === 'Organization';
 
-      // Count commits in time windows
-      const commits = repo.defaultBranchRef?.target?.history?.nodes || [];
-      const totalCommits7d = repo.defaultBranchRef?.target?.history?.totalCount || 0;
-
-      let commits24h = 0;
-      let commits48h = 0;
-      const now_ms = Date.now();
-
-      for (const c of commits) {
-        const age = now_ms - new Date(c.committedDate).getTime();
-        if (age <= 24 * 60 * 60 * 1000) commits24h++;
-        if (age <= 48 * 60 * 60 * 1000) commits48h++;
-      }
+      // Commits via per-window totalCount (uncapped, accurate)
+      const target = repo.defaultBranchRef?.target;
+      const commits24h = target?.h24?.totalCount || 0;
+      const commits48h = target?.h48?.totalCount || 0;
+      const totalCommits7d = target?.h7d?.totalCount || 0;
 
       // languages
       const languages = (repo.languages?.nodes || []).map(l => l.name);
