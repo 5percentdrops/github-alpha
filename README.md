@@ -30,17 +30,20 @@ pm2 save                          # persist for resurrect
 | alpha-daily-scan  | 02:00 UTC   | Full scan of all 7719 developers     |
 | alpha-hot-rescan  | every 6h    | Re-scan repos tagged HOT in last 24h |
 
-## Signal Tiers (PRD §6)
+## Signal Tiers
 
 | Signal   | commits/48h | Description                                    |
 |----------|-------------|------------------------------------------------|
-| ⚡ ALPHA  | ≥ 50        | All 6 filter gates passed — pre-launch signal  |
-| 🔥 HOT    | 30 – 49     | Approaching velocity threshold                 |
-| 👁 WATCHING | 1 – 29      | Activity but below velocity threshold          |
+| ⚡ ALPHA  | ≥ 150       | All 6 hard gates passed — pre-launch signal    |
+| 🔥 HOT    | 100 – 149   | Approaching velocity threshold                 |
+| 👁 WATCHING | 1 – 99      | Activity but below velocity threshold          |
 | — DORMANT | 0           | No qualifying activity                         |
 
-ALPHA / HOT require structural gates: not org, not fork, personal namespace,
-repo age < 30d, stars < 10. Watcher gate (watchers > stars) reported but informational.
+ALPHA / HOT require all 6 hard gates: not org, not fork, personal namespace,
+repo age < 30d, stars < 10, **watchers > stars**.
+
+> Velocity thresholds (150 / 100) are user overrides above PRD v1.0 (50 / 30)
+> for higher-conviction signal. Watcher gate is hard-blocking per user spec.
 
 ## API Endpoints
 
