@@ -88,7 +88,7 @@ function handleRequest(req, res) {
 
     return json(res, {
       targets,
-      apiCallsPerDay: Math.ceil(targets / 20), // GraphQL batches
+      apiCallsPerDay: Math.ceil(targets / 10), // GraphQL batches at BATCH_SIZE=10
       filtered: alphaCount + hotCount,
       rateLimitPct: ((Math.ceil(targets / 20) / 5000) * 100).toFixed(1),
       cost: '$0',

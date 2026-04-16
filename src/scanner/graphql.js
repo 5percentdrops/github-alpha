@@ -179,9 +179,9 @@ function parseResponse(data) {
  * Scan a list of developer logins via GraphQL.
  * Returns normalized repo data for all developers.
  */
-export async function scanDevelopers(logins, token, onProgress) {
-  const allResults = [];
+export async function scanDevelopers(logins, token, onBatch) {
   const batches = [];
+  let totalParsed = 0;
 
   for (let i = 0; i < logins.length; i += BATCH_SIZE) {
     batches.push(logins.slice(i, i + BATCH_SIZE));
@@ -197,12 +197,14 @@ export async function scanDevelopers(logins, token, onProgress) {
       const query = buildBatchQuery(batch);
       const data = await executeQuery(query, token);
       const parsed = parseResponse(data);
-      allResults.push(...parsed);
+      totalParsed += parsed.length;
+
+      // Stream batch results to caller (per-batch insert + alert)
+      if (onBatch) await onBatch(parsed, i + 1, batches.length);
 
       if ((i + 1) % 10 === 0 || i === batches.length - 1) {
         const pct = Math.round(((i + 1) / batches.length) * 100);
-        console.log(`   Batch ${i + 1}/${batches.length} (${pct}%) — ${allResults.length} repos found`);
-        if (onProgress) onProgress(i + 1, batches.length, allResults.length);
+        console.log(`   Batch ${i + 1}/${batches.length} (${pct}%) — ${totalParsed} repos found`);
       }
     } catch (err) {
       console.error(`   ❌ Batch ${i + 1} failed: ${err.message}`);
@@ -210,5 +212,5 @@ export async function scanDevelopers(logins, token, onProgress) {
     }
   }
 
-  return allResults;
+  return totalParsed;
 }

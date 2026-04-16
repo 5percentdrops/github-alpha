@@ -15,7 +15,7 @@ import {
   hasAlerted, recordAlert, closeDb, getDeveloperCount,
 } from '../db/database.js';
 import { scanDevelopers } from './graphql.js';
-import { runPipeline } from './pipeline.js';
+import { runPipeline, classifySignal } from './pipeline.js';
 
 function getToken() {
   if (process.env.GITHUB_TOKEN) return process.env.GITHUB_TOKEN;
@@ -90,33 +90,32 @@ async function main() {
     return;
   }
 
-  // Scan via GraphQL
-  const rawResults = await scanDevelopers(logins, token);
+  // Stream-process: classify, insert, alert per batch (no in-memory accumulation)
+  const totals = { stored: 0, alerts: 0, alpha: 0, hot: 0, watching: 0, dormant: 0 };
 
-  // Run filter pipeline
-  const { signals, stats } = runPipeline(rawResults);
+  await scanDevelopers(logins, token, async (rawBatch /*, batchIdx, totalBatches */) => {
+    for (const raw of rawBatch) {
+      const sig = classifySignal(raw);
+      insertScanResult(sig);
+      totals.stored++;
+      totals[sig.signal.toLowerCase()]++;
+
+      if ((sig.signal === 'ALPHA' || sig.signal === 'HOT') && !hasAlerted(sig.login, sig.repo)) {
+        await sendTelegramAlert(sig);
+        recordAlert(sig.login, sig.repo, sig.signal);
+        totals.alerts++;
+        console.log(`   📨 ${sig.signal} alert: ${sig.login}/${sig.repo}`);
+      }
+    }
+  });
 
   console.log(`\n📊 Pipeline Results:`);
-  console.log(`   Total repos scanned: ${stats.total}`);
-  console.log(`   ⚡ ALPHA: ${stats.alpha}`);
-  console.log(`   🔥 HOT:   ${stats.hot}`);
-  console.log(`   👁 WATCH:  ${stats.watching}`);
-  console.log(`   — DORMANT: ${stats.dormant}`);
-
-  // Store results + send alerts
-  let alertsSent = 0;
-  for (const sig of signals) {
-    insertScanResult(sig);
-
-    if ((sig.signal === 'ALPHA' || sig.signal === 'HOT') && !hasAlerted(sig.login, sig.repo)) {
-      await sendTelegramAlert(sig);
-      recordAlert(sig.login, sig.repo, sig.signal);
-      alertsSent++;
-      console.log(`   📨 ${sig.signal} alert: ${sig.login}/${sig.repo}`);
-    }
-  }
-
-  console.log(`\n✅ Scan complete. ${signals.length} results stored, ${alertsSent} alerts sent.`);
+  console.log(`   Total repos scanned: ${totals.stored}`);
+  console.log(`   ⚡ ALPHA: ${totals.alpha}`);
+  console.log(`   🔥 HOT:   ${totals.hot}`);
+  console.log(`   👁 WATCH:  ${totals.watching}`);
+  console.log(`   — DORMANT: ${totals.dormant}`);
+  console.log(`\n✅ Scan complete. ${totals.stored} results stored, ${totals.alerts} alerts sent.`);
   closeDb();
 }
 
