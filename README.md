@@ -1,30 +1,70 @@
 # GitHub Alpha
 
-GitHub developer intelligence pipeline for Mission Control UI's GitHub Alpha card.
+GitHub developer intelligence pipeline for Action Control UI's GitHub Alpha card.
+Scans 7,719 high-follower devs, detects burst-commit activity on obscure new repos,
+sends Telegram alerts on ALPHA / HOT signals.
+
+## Quick Start
+
+```bash
+# env vars
+export GITHUB_TOKEN=...        # or rely on `gh auth token`
+export TELEGRAM_BOT_TOKEN=...  # optional — alerts skipped if unset
+export TELEGRAM_CHAT_ID=...
+
+# one-off scans
+npm run scan          # full scan of all 7719 devs (~75min @ batch 10)
+npm run scan:hot      # re-scan only HOT-tagged devs from last 24h
+npm run scan:test     # 20-dev sanity check
+npm run api           # start API on :3847
+
+# production via PM2
+pm2 start ecosystem.config.cjs    # api + cron-scheduled scans
+pm2 save                          # persist for resurrect
+# Windows boot: install pm2-windows-startup, or schedule `pm2 resurrect` via Task Scheduler
+```
+
+## Schedule (PM2 cron_restart)
+
+| Service           | Cron        | Purpose                              |
+|-------------------|-------------|--------------------------------------|
+| alpha-api         | (always on) | HTTP API on :3847 for MCU            |
+| alpha-daily-scan  | 02:00 UTC   | Full scan of all 7719 developers     |
+| alpha-hot-rescan  | every 6h    | Re-scan repos tagged HOT in last 24h |
+
+## Signal Tiers
+
+| Signal   | commits/48h | Action                          |
+|----------|-------------|---------------------------------|
+| ALPHA    | ≥ 150       | Telegram alert (rare)           |
+| HOT      | 75–149      | Telegram alert                  |
+| WATCHING | 1–74        | Stored, no alert                |
+| DORMANT  | 0           | Stored                          |
+
+ALPHA / HOT also require all structural gates: not org, not fork, personal namespace,
+repo age < 30d, stars < 10. Watchers gate currently informational only.
+
+## API Endpoints
+
+- `GET /api/health` — liveness
+- `GET /api/stats` — `{ targets, apiCallsPerDay, filtered, alpha, hot }`
+- `GET /api/signals` — latest signal data per repo with gates + commit windows
 
 ## Structure
 
 ```
-data/              — collected datasets (JSON)
-scripts/           — standalone CLI scripts (collectors, one-off jobs)
+data/              — SQLite db (alpha.db) + raw dev dataset
+scripts/           — one-off jobs (collect, seed)
 src/
-  collectors/      — data collection modules (followers, repos, activity)
-  analyzers/       — signal detection (trending devs, rising stars, new repos)
-  api/             — API layer for Mission Control UI integration
-config/            — configuration files
-.github/workflows/ — automated collection via GitHub Actions
+  scanner/         — GraphQL fetcher + 6-stage filter pipeline + run-scan orchestrator
+  api/             — HTTP server for MCU integration
+  db/              — schema + better-sqlite3 wrapper
+ecosystem.config.cjs — PM2 process manifest
 ```
-
-## Data Sources
-
-- **GitHub Search API** — developer accounts with 1k+ followers
-- **GitHub Events API** — activity tracking (commits, stars, forks)
-- **TrendShift** — trending repo alerts (via existing Telegram webhook)
 
 ## Mission Control Integration
 
-This feeds the **GitHub Alpha card** in Mission Control UI:
-- Top developers by follower growth
-- Rising star accounts (fast follower gain)
-- New repos from tracked developers
+This feeds the **GitHub Alpha card** in Action Control UI:
+- Top developers by recent commit velocity
+- HOT/ALPHA-tagged obscure new repos
 - Cross-reference with wiki entities for trading/tech signals
