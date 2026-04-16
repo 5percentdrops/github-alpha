@@ -34,16 +34,20 @@ pm2 save                          # persist for resurrect
 
 | Signal   | commits/48h | Description                                    |
 |----------|-------------|------------------------------------------------|
-| ⚡ ALPHA  | ≥ 150       | All 6 hard gates passed — pre-launch signal    |
-| 🔥 HOT    | 100 – 149   | Approaching velocity threshold                 |
-| 👁 WATCHING | 1 – 99      | Activity but below velocity threshold          |
+| ⚡ ALPHA  | ≥ 150       | All 5 hard gates passed — pre-launch signal    |
+| 👁 WATCHING | 1 – 149     | Activity but below velocity threshold          |
 | — DORMANT | 0           | No qualifying activity                         |
 
-ALPHA / HOT require all 6 hard gates: not org, not fork, personal namespace,
-repo age < 30d, stars < 10, **watchers > stars**.
+ALPHA hard gates:
+1. Not org repo
+2. Not a fork
+3. Personal namespace (`repo.owner.login === target.login`)
+4. Repo age < 30 days
+5. **Watchers > Stars** (sole obscurity gate — no fixed star ceiling)
 
-> Velocity thresholds (150 / 100) are user overrides above PRD v1.0 (50 / 30)
-> for higher-conviction signal. Watcher gate is hard-blocking per user spec.
+> Per user spec (overrides PRD v1.0 §5.4/§6 thresholds 50/30 and stars<10 gate).
+> Star count still surfaced in UI but does not gate classification.
+> No HOT tier — only ALPHA matters.
 
 ## API Endpoints
 

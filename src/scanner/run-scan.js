@@ -63,7 +63,7 @@ async function main() {
   }
 
   // Stream-process: classify + insert per batch (no in-memory accumulation)
-  const totals = { stored: 0, alpha: 0, hot: 0, watching: 0, dormant: 0 };
+  const totals = { stored: 0, alpha: 0, watching: 0, dormant: 0 };
 
   await scanDevelopers(logins, token, async (rawBatch) => {
     for (const raw of rawBatch) {
@@ -71,18 +71,17 @@ async function main() {
       insertScanResult(sig);
       totals.stored++;
       totals[sig.signal.toLowerCase()]++;
-      if (sig.signal === 'ALPHA' || sig.signal === 'HOT') {
-        console.log(`   ${sig.signal === 'ALPHA' ? '⚡' : '🔥'} ${sig.signal}: ${sig.login}/${sig.repo} (${sig.commits48h}/48h)`);
+      if (sig.signal === 'ALPHA') {
+        console.log(`   ⚡ ALPHA: ${sig.login}/${sig.repo} (${sig.commits48h}/48h)`);
       }
     }
   });
 
   console.log(`\n📊 Pipeline Results:`);
   console.log(`   Total repos scanned: ${totals.stored}`);
-  console.log(`   ⚡ ALPHA: ${totals.alpha}`);
-  console.log(`   🔥 HOT:   ${totals.hot}`);
-  console.log(`   👁 WATCH:  ${totals.watching}`);
-  console.log(`   — DORMANT: ${totals.dormant}`);
+  console.log(`   ⚡ ALPHA:    ${totals.alpha}`);
+  console.log(`   👁 WATCHING: ${totals.watching}`);
+  console.log(`   — DORMANT:  ${totals.dormant}`);
   console.log(`\n✅ Scan complete. ${totals.stored} results stored.`);
   closeDb();
 }

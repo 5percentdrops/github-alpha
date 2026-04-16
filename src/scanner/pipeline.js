@@ -1,19 +1,20 @@
 /**
- * 7-gate filter pipeline + signal classifier.
+ * Filter pipeline + signal classifier.
  *
- * USER OVERRIDE (2026-04-16) — supersedes PRD v1.0 §5.4/§6 thresholds:
- *   ALPHA = ≥150 commits/48h (PRD said 50)
- *   HOT   = 100–149 commits/48h (PRD said 30–49)
+ * USER SPEC (2026-04-16) — supersedes PRD v1.0 §5.4/§6:
+ *   ALPHA only — no HOT tier.
+ *   ≥150 commits/48h on a personal repo with watchers > stars and age < 30d.
  *
- * Hard gates for ALPHA/HOT classification:
+ * Hard gates for ALPHA:
  *   - Not org repo
  *   - Not a fork
  *   - Personal namespace
  *   - Repo < 30 days old
- *   - Stars < 10
- *   - Watchers > Stars  (now blocking — was informational)
+ *   - Watchers > Stars  (replaces stars<10 — true obscurity is watchers/stars ratio)
  *
- * WATCHING = any commit activity below 100/48h
+ * Stars-count is reported but no longer gated.
+ *
+ * WATCHING = any commit activity below 150/48h
  * DORMANT  = no activity
  */
 
@@ -31,31 +32,29 @@ export function classifySignal(repo) {
   // Gate 3: Personal namespace (repo owner matches developer login)
   const gatePersonalNs = repo.repoOwner === repo.login ? 1 : 0;
 
-  // Gate 4: Velocity threshold (user override: ≥150/48h = ALPHA, 100-149 = HOT)
-  const gateVelocity = repo.commits48h >= 100 ? 1 : 0;
+  // Gate 4: Velocity threshold (user spec: ≥150/48h)
+  const gateVelocity = repo.commits48h >= 150 ? 1 : 0;
 
   // Gate 5: Repo age < 30 days
   const gateRepoAge = repo.repoAge < 30 ? 1 : 0;
 
-  // Gate 6: Stars < 10
-  const gateStars = repo.stars < 10 ? 1 : 0;
-
-  // Gate 7: Watchers > Stars (now blocking gate, not informational)
+  // Gate 6: Watchers > Stars (only obscurity gate — replaces stars<10)
   const gateWatchers = repo.watchers > repo.stars ? 1 : 0;
 
-  // Structural gates required for ALPHA/HOT (everything except velocity)
-  const structuralGatesPassed = gateNotOrg && gateNotFork && gatePersonalNs &&
-    gateRepoAge && gateStars && gateWatchers;
+  // gate_stars retained as informational (star count still surfaced) but no longer blocks
+  const gateStars = repo.stars < 10 ? 1 : 0;
 
-  // Signal classification (user thresholds)
+  // Structural gates required for ALPHA (everything except velocity)
+  const structuralGatesPassed = gateNotOrg && gateNotFork && gatePersonalNs &&
+    gateRepoAge && gateWatchers;
+
+  // Signal classification — ALPHA only, no HOT tier per user spec
   let signal = 'DORMANT';
 
   if (repo.commits48h === 0) {
     signal = 'DORMANT';
   } else if (structuralGatesPassed && repo.commits48h >= 150) {
     signal = 'ALPHA';
-  } else if (structuralGatesPassed && repo.commits48h >= 100) {
-    signal = 'HOT';
   } else if (repo.commits48h > 0) {
     signal = 'WATCHING';
   }

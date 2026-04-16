@@ -82,18 +82,15 @@ function handleRequest(req, res) {
   if (url.pathname === '/api/stats') {
     const db = getDb();
     const targets = getDeveloperCount();
-    const scanCount = db.prepare(`SELECT COUNT(*) as c FROM scan_results WHERE scanned_at > datetime('now', '-24 hours')`).get().c;
     const alphaCount = db.prepare(`SELECT COUNT(DISTINCT login || repo) as c FROM scan_results WHERE signal = 'ALPHA' AND scanned_at > datetime('now', '-24 hours')`).get().c;
-    const hotCount = db.prepare(`SELECT COUNT(DISTINCT login || repo) as c FROM scan_results WHERE signal = 'HOT' AND scanned_at > datetime('now', '-24 hours')`).get().c;
 
     return json(res, {
       targets,
       apiCallsPerDay: Math.ceil(targets / 10), // GraphQL batches at BATCH_SIZE=10
-      filtered: alphaCount + hotCount,
-      rateLimitPct: ((Math.ceil(targets / 20) / 5000) * 100).toFixed(1),
+      filtered: alphaCount,
+      rateLimitPct: ((Math.ceil(targets / 10) / 5000) * 100).toFixed(1),
       cost: '$0',
       alpha: alphaCount,
-      hot: hotCount,
     });
   }
 

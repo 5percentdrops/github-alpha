@@ -86,10 +86,12 @@ export function getLatestSignals() {
   `).all();
 }
 
+// Re-scan candidates: devs with ALPHA or WATCHING activity in last 24h
+// (repurposed from old HOT-only logic — HOT tier removed per user spec)
 export function getHotTargets() {
   return getDb().prepare(`
     SELECT DISTINCT login FROM scan_results
-    WHERE signal = 'HOT'
+    WHERE signal IN ('ALPHA', 'WATCHING')
     AND scanned_at > datetime('now', '-24 hours')
   `).all().map(r => r.login);
 }
