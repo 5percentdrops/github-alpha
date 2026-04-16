@@ -18,7 +18,7 @@ module.exports = {
       script: 'src/scanner/run-scan.js',
       cwd: __dirname,
       interpreter: 'node',
-      cron_restart: '0 2 * * *', // 02:00 UTC daily
+      cron_restart: '0 11 * * *', // 11:00 UTC daily
       autorestart: false,
       watch: false,
       env: {

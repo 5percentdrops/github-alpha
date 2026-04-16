@@ -27,15 +27,15 @@ pm2 save                          # persist for resurrect
 | Service           | Cron        | Purpose                              |
 |-------------------|-------------|--------------------------------------|
 | alpha-api         | (always on) | HTTP API on :3847 for Action Control |
-| alpha-daily-scan  | 02:00 UTC   | Full scan of all 7719 developers     |
+| alpha-daily-scan  | 11:00 UTC   | Full scan of all 7719 developers     |
 | alpha-hot-rescan  | every 6h    | Re-scan repos tagged HOT in last 24h |
 
 ## Signal Tiers
 
 | Signal   | commits/48h | Description                                    |
 |----------|-------------|------------------------------------------------|
-| ⚡ ALPHA  | ≥ 150       | All 5 hard gates passed — pre-launch signal    |
-| 👁 WATCHING | 1 – 149     | Activity but below velocity threshold          |
+| ⚡ ALPHA  | ≥ 75       | All 5 hard gates passed — pre-launch signal    |
+| 👁 WATCHING | 1 – 74      | Activity but below velocity threshold          |
 | — DORMANT | 0           | No qualifying activity                         |
 
 ALPHA hard gates:

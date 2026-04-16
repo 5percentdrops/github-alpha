@@ -3,7 +3,8 @@
  *
  * USER SPEC (2026-04-16) — supersedes PRD v1.0 §5.4/§6:
  *   ALPHA only — no HOT tier.
- *   ≥150 commits/48h on a personal repo with watchers > stars and age < 30d.
+ *   ≥75 commits/48h on a personal repo with watchers > stars and age < 30d.
+ *   (Started at 150, dropped to 75 — running for a week, will bump if noisy.)
  *
  * Hard gates for ALPHA:
  *   - Not org repo
@@ -14,7 +15,7 @@
  *
  * Stars-count is reported but no longer gated.
  *
- * WATCHING = any commit activity below 150/48h
+ * WATCHING = any commit activity below 75/48h
  * DORMANT  = no activity
  */
 
@@ -32,8 +33,8 @@ export function classifySignal(repo) {
   // Gate 3: Personal namespace (repo owner matches developer login)
   const gatePersonalNs = repo.repoOwner === repo.login ? 1 : 0;
 
-  // Gate 4: Velocity threshold (user spec: ≥150/48h)
-  const gateVelocity = repo.commits48h >= 150 ? 1 : 0;
+  // Gate 4: Velocity threshold (user spec: ≥75/48h, evaluating for a week)
+  const gateVelocity = repo.commits48h >= 75 ? 1 : 0;
 
   // Gate 5: Repo age < 30 days
   const gateRepoAge = repo.repoAge < 30 ? 1 : 0;
@@ -53,7 +54,7 @@ export function classifySignal(repo) {
 
   if (repo.commits48h === 0) {
     signal = 'DORMANT';
-  } else if (structuralGatesPassed && repo.commits48h >= 150) {
+  } else if (structuralGatesPassed && repo.commits48h >= 75) {
     signal = 'ALPHA';
   } else if (repo.commits48h > 0) {
     signal = 'WATCHING';
