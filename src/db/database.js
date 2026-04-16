@@ -98,7 +98,7 @@ export function getHotTargets() {
 
 export function hasAlerted(login, repo) {
   return getDb().prepare(
-    'SELECT 1 FROM alerts WHERE login = ? AND repo = ? AND sent_at > datetime("now", "-7 days")'
+    "SELECT 1 FROM alerts WHERE login = ? AND repo = ? AND sent_at > datetime('now', '-7 days')"
   ).get(login, repo) != null;
 }
 
