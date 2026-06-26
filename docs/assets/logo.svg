@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="GitHub Alpha logo">
+  <defs>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7c5cff"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="6" y="6" width="188" height="188" rx="32" ry="32" fill="url(#fill)" stroke="url(#stroke)" stroke-width="4"/>
+
+  <!-- GitHub-style branch mark (subtle, in top-left) -->
+  <g transform="translate(28,28)" stroke="#94a3b8" stroke-width="2" fill="none" opacity="0.55">
+    <circle cx="6" cy="6" r="3" fill="#94a3b8"/>
+    <circle cx="6" cy="34" r="3" fill="#94a3b8"/>
+    <circle cx="34" cy="20" r="3" fill="#94a3b8"/>
+    <path d="M6 9 V31 M9 6 H31 V17" stroke-linecap="round"/>
+  </g>
+
+  <!-- Velocity / lightning bolt (main mark) -->
+  <path d="M118 38 L72 110 L98 110 L86 162 L138 88 L112 88 Z"
+        fill="url(#bolt)" stroke="#e6edf3" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Three activity bars (alpha velocity) -->
+  <g transform="translate(28,150)" fill="url(#bolt)">
+    <rect x="0" y="14" width="10" height="14" rx="2"/>
+    <rect x="14" y="6" width="10" height="22" rx="2" opacity="0.85"/>
+    <rect x="28" y="0" width="10" height="28" rx="2" opacity="0.7"/>
+  </g>
+</svg>
