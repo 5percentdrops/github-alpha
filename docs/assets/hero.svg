@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="280" rx="14" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="3" fill="url(#brand)"/>
+
+  <!-- traffic lights -->
+  <g transform="translate(20 18)">
+    <circle cx="0"  cy="0" r="6" fill="#ff5f57"/>
+    <circle cx="18" cy="0" r="6" fill="#febc2e"/>
+    <circle cx="36" cy="0" r="6" fill="#28c840"/>
+  </g>
+  <text x="600" y="22" text-anchor="middle" font-size="12" fill="#6e7681">TR3-AI / github-alpha — pipeline trace</text>
+
+  <!-- pipeline stage cards (collect → seed → scan → gates → API) -->
+  <g transform="translate(20 50)" font-size="11" fill="#c9d1d9">
+    <!-- 1. collect -->
+    <g transform="translate(0 0)">
+      <rect x="0" y="0" width="200" height="100" rx="6" fill="#0b0e13" stroke="#22d3ee" stroke-width="1"/>
+      <text x="10" y="18" font-size="10" fill="#22d3ee" font-weight="700">1 · COLLECT</text>
+      <text x="10" y="38" font-size="22" font-weight="700" fill="#c9d1d9">7,719</text>
+      <text x="10" y="54" font-size="10" fill="#6e7681">devs with ≥1k followers</text>
+      <text x="10" y="74" font-size="9" fill="#475569">collect-1k-followers.js</text>
+      <text x="10" y="88" font-size="9" fill="#475569">GraphQL · 200/h</text>
+    </g>
+    <!-- arrow -->
+    <path d="M205 50 L225 50" stroke="#22d3ee" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+
+    <!-- 2. seed -->
+    <g transform="translate(225 0)">
+      <rect x="0" y="0" width="200" height="100" rx="6" fill="#0b0e13" stroke="#22d3ee" stroke-width="1"/>
+      <text x="10" y="18" font-size="10" fill="#22d3ee" font-weight="700">2 · SEED</text>
+      <text x="10" y="38" font-size="22" font-weight="700" fill="#c9d1d9">7,719</text>
+      <text x="10" y="54" font-size="10" fill="#6e7681">rows in developers table</text>
+      <text x="10" y="74" font-size="9" fill="#475569">seed-developers.js</text>
+      <text x="10" y="88" font-size="9" fill="#475569">SQLite · better-sqlite3</text>
+    </g>
+    <path d="M430 50 L450 50" stroke="#22d3ee" stroke-width="1.5" fill="none"/>
+
+    <!-- 3. scan -->
+    <g transform="translate(450 0)">
+      <rect x="0" y="0" width="200" height="100" rx="6" fill="#0b0e13" stroke="#a855f7" stroke-width="1"/>
+      <text x="10" y="18" font-size="10" fill="#a855f7" font-weight="700">3 · SCAN · 11:00 UTC</text>
+      <text x="10" y="38" font-size="22" font-weight="700" fill="#c9d1d9">~75 min</text>
+      <text x="10" y="54" font-size="10" fill="#6e7681">6-stage filter pipeline</text>
+      <text x="10" y="74" font-size="9" fill="#475569">src/scanner/run-scan.js</text>
+      <text x="10" y="88" font-size="9" fill="#475569">batch 10 · GraphQL</text>
+    </g>
+    <path d="M655 50 L675 50" stroke="#a855f7" stroke-width="1.5" fill="none"/>
+
+    <!-- 4. gates -->
+    <g transform="translate(675 0)">
+      <rect x="0" y="0" width="200" height="100" rx="6" fill="#0b0e13" stroke="#a855f7" stroke-width="1"/>
+      <text x="10" y="18" font-size="10" fill="#a855f7" font-weight="700">4 · GATES · 5</text>
+      <text x="10" y="34" font-size="9" fill="#94a3b8">① not org   ② not fork</text>
+      <text x="10" y="48" font-size="9" fill="#94a3b8">③ personal namespace</text>
+      <text x="10" y="62" font-size="9" fill="#94a3b8">④ age &lt; 30d</text>
+      <text x="10" y="76" font-size="9" fill="#94a3b8">⑤ watchers &gt; stars</text>
+      <text x="10" y="92" font-size="9" fill="#475569">overrides PRD v1.0 §5.4</text>
+    </g>
+    <path d="M880 50 L900 50" stroke="#f59e0b" stroke-width="1.5" fill="none"/>
+
+    <!-- 5. api -->
+    <g transform="translate(900 0)">
+      <rect x="0" y="0" width="260" height="100" rx="6" fill="#0b0e13" stroke="#f59e0b" stroke-width="1"/>
+      <text x="10" y="18" font-size="10" fill="#f59e0b" font-weight="700">5 · API · :3847</text>
+      <text x="10" y="38" font-size="12" font-weight="700" fill="#c9d1d9">GET /health · /stats · /signals</text>
+      <text x="10" y="58" font-size="10" fill="#6e7681">→ Action Control Project Alpha card</text>
+      <text x="10" y="78" font-size="9" fill="#475569">pm2 ecosystem.config.cjs</text>
+      <text x="10" y="92" font-size="9" fill="#475569">always-on · 11:00 UTC scan · 6h hot</text>
+    </g>
+  </g>
+
+  <!-- bottom: live signal sample -->
+  <g transform="translate(20 175)" font-size="11" fill="#c9d1d9">
+    <text x="0" y="-4" font-size="10" fill="#6e7681">SIGNALS · LAST SCAN · 11:00 UTC</text>
+    <g transform="translate(0 6)">
+      <rect x="0"   y="0" width="380" height="32" rx="4" fill="#0b0e13" stroke="#1f2937" stroke-width="1"/>
+      <polygon points="14,16 22,8 30,16 22,24" fill="#f59e0b"/>
+      <text x="40" y="14" font-size="11" font-weight="700" fill="#c9d1d9">⚡ ALPHA · anthropic-experimental/computer-use</text>
+      <text x="40" y="26" font-size="9" fill="#94a3b8">125 commits/48h · age 18d · watchers 1.2k · stars 410</text>
+      <text x="372" y="20" text-anchor="end" font-size="10" font-weight="700" fill="#f59e0b">5/5</text>
+    </g>
+    <g transform="translate(0 42)">
+      <rect x="0"   y="0" width="380" height="32" rx="4" fill="#0b0e13" stroke="#1f2937" stroke-width="1"/>
+      <polygon points="14,16 22,8 30,16 22,24" fill="#f59e0b"/>
+      <text x="40" y="14" font-size="11" font-weight="700" fill="#c9d1d9">⚡ ALPHA · openai/swarm</text>
+      <text x="40" y="26" font-size="9" fill="#94a3b8">88 commits/48h · age 12d · watchers 380 · stars 220</text>
+      <text x="372" y="20" text-anchor="end" font-size="10" font-weight="700" fill="#f59e0b">5/5</text>
+    </g>
+
+    <!-- right column: aggregate stats -->
+    <g transform="translate(395 0)">
+      <text x="0" y="-4" font-size="10" fill="#6e7681">STATS · /api/stats</text>
+      <rect x="0" y="0" width="765" height="74" rx="6" fill="#0b0e13" stroke="#1f2937" stroke-width="1"/>
+      <g transform="translate(20 18)" font-size="11" fill="#94a3b8">
+        <text x="0"   y="0" font-size="9"  fill="#6e7681">TARGETS</text>
+        <text x="0"   y="18" font-size="20" font-weight="700" fill="#22d3ee">7,719</text>
+
+        <text x="140" y="0" font-size="9"  fill="#6e7681">API CALLS / DAY</text>
+        <text x="140" y="18" font-size="20" font-weight="700" fill="#a855f7">~22k</text>
+
+        <text x="320" y="0" font-size="9"  fill="#6e7681">FILTERED</text>
+        <text x="320" y="18" font-size="20" font-weight="700" fill="#94a3b8">2,041</text>
+
+        <text x="460" y="0" font-size="9"  fill="#6e7681">WATCHING</text>
+        <text x="460" y="18" font-size="20" font-weight="700" fill="#94a3b8">312</text>
+
+        <text x="600" y="0" font-size="9"  fill="#6e7681">⚡ ALPHA</text>
+        <text x="600" y="18" font-size="20" font-weight="700" fill="#f59e0b">14</text>
+      </g>
+      <text x="20" y="64" font-size="9" fill="#475569">next scan: 11:00 UTC · 6h hot rescan in 3h 12m</text>
+    </g>
+  </g>
+</svg>
